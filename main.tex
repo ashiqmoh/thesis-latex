@@ -1,0 +1,36 @@
+\documentclass[12pt,a4paper]{report}
+
+% makes latex quickly check the document, runs faster and saves time
+%\usepackage{syntonly}
+%\syntaxonly
+
+\usepackage{listings}
+\usepackage{color}
+%\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\graphicspath{ {img/} }
+
+\usepackage{url}
+% \usepackage{forest}
+\usepackage{dirtree}
+
+\lstset{
+	aboveskip=3mm,
+	belowskip=3mm,
+	basicstyle=\footnotesize,
+	breaklines=true,
+	tabsize=3,
+	breakatwhitespace=true,
+	frame=l
+}
+
+\begin{document}
+
+\include{contents/5-technologies}
+\include{contents/6.9-wordpress-installation}
+\include{contents/9-cctv-live-stream}
+\include{contents/10-integrating-unity-3dmodel}
+
+\end{document}
