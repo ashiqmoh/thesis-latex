@@ -1,11 +1,11 @@
 \chapter{CCTV Live Stream}
 
 \section{Introduction}
-Another task in this thesis work is to stream live CCTV footage on the website. The CCTV used in thesis work is called PremiumBlue IP Camera (\emph{see} Figure \ref{premium-blue-ip-camera}). This camera is built with 720p resolutions, can be rotated and tilted remotely and monitored wirelessly. It is suitable to be used in homes, offices and labs. The user interface of the camera, which is used to view the footage and control the camera itself, can be accessed through the web browser. Additionally, it has a SD-card slot, which enables the storing of the footages and replay of them in the later time.
+Another task in this thesis work is to stream live CCTV footage on the website. The CCTV used in thesis work is called PremiumBlue IP Camera as shown in the Figure~\ref{fig:premium-blue-ip-camera}. This camera is built with 720p resolutions, can be rotated and tilted remotely and monitored wirelessly. It is suitable to be used in homes, offices and labs. The user interface of the camera, which is used to view the footage and control the camera itself, can be accessed through the web browser. Additionally, it has a SD-card slot, which enables the storing of the footages and replay of them in the later time.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \caption{PremiumBlue IP-Camera}
-\label{premium-blue-ip-camera}
+\label{fig:premium-blue-ip-camera}
 \centering
 \includegraphics[height=3.5cm,keepaspectratio]{cctv/premium-blue-ip-camera.jpg}
 \end{figure}
@@ -18,7 +18,7 @@ This chapter will discuss on how to configure the above mentioned IP-Camera; ext
 
 The camera came with built-in web application and a bundle of softwares. To get started, the IP-Camera need to be connected to power supply and LAN-network. Next, we need to identify the IP of the camera by using the software came bundled with the camera called \emph{SearchIPCam.exe} (\emph{see} Figure \ref{search-ip-cam-exe}). This application can also be downloaded from the vendor's website\footnote{https://www.pollin.de/shop/downloads/D722622S.ZIP}. Run the program and hit the 'Refresh' button to obtain the IP address of the camera.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \caption{SearchIPCam.exe}
 \label{search-ip-cam-exe}
 \centering
@@ -39,7 +39,7 @@ After identifying the IP address of the camera, the web interface of the camera 
 \end{itemize}
 (Note: 'Anwender' and 'Passwort' were not changed as at time of writing this. It may be changed in the future.)
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \caption{Login in into IP-Camera web interface}
 \label{ip-camera-web-interface}
 \centering
@@ -57,7 +57,7 @@ After successful login, the settings of the IP Camera can be accessed by clickin
 \item Key: 91054319
 \end{itemize}
 Hit the 'Update' and 'Speichern' buttons and close the web browser or the tab. (Note: The SSID and password may be changed in the future time.)
-\begin{figure}[h]
+\begin{figure}[ht]
 \caption{IP-Camera WLAN settings}
 \label{ip-camera-wlan-settings}
 \centering
@@ -68,7 +68,7 @@ Hit the 'Update' and 'Speichern' buttons and close the web browser or the tab. (
 	\includegraphics[width=\textwidth]{cctv/wlan-search.png}
 	\end{subfigure}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[ht]
 \caption{WLan Credentials}
 \label{wlan-credentials}
 \centering
@@ -122,7 +122,7 @@ Where,
 \item password: admin
 \end{itemize}
 
-\begin{table}[h]
+\begin{table}[ht]
 \centering
 \caption{Camera Control Commands}
 \label{camera-control-commands}
@@ -154,7 +154,7 @@ The web page is created by using WordPress built-in functionality. To create a n
 \subsection{Scripts n Styles Plugin}
 Next, JavaScript code will be added to render the HTML view. Below the WordPress text editor column, the 'Scripts n Styles' column can be found (\emph{refer} Figure~\ref{fig:scripts-n-styles-column}). This column will be added to every created page because of the installation of a WordPress plugin by the same name, 'Scripts n Styles'. To find out about the installed and activated plugins, explore the Plugins page. To learn more about this plugin, refer to URL linked in given footnote\footnote{https://de.wordpress.org/plugins/scripts-n-styles/}. Basically, this plugin enable the WordPress user to add custom CSS and JavaScript codes globally or to individual pages. Custom CSS and JavaScript is added into the page created to render the IP-Camera recording and the controller buttons.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \caption{Scripts n Styles Column}
 \label{fig:scripts-n-styles-column}
 \centering
@@ -170,7 +170,7 @@ First, a self-invoked JavaScript function will be added into 'Scripts' lower col
 \end{itemize}
 and a submit button The rendered view will then be inserted into HTML page under the \texttt{div} element with class name \texttt{'entry-content'}.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \caption{HTML form with 3 input text fields and a submit button}
 \label{fig:html-view-cctv-form}
 \centering
@@ -212,7 +212,7 @@ CameraModule.renderController = function () {
 }
 \end{lstlisting}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \caption{Camera Module HTML View}
 \label{fig:camera-module-html-view}
 \centering
