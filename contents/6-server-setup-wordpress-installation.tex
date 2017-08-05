@@ -3,18 +3,18 @@
 In this project, WordPress is setup on Nginx HTTP web server running PHP preprocessor and MySQL database server. This chapter will explain on how to configure Ubuntu server, setup Nginx, PHP, MySQL database as well as WordPress.
 
 \section{Ubuntu Server Configuration} \label{sec:ubuntu-server-configuration}
-The Smart Home Lab has its own server running Ubuntu Server 16.04.2 LTS. On this server, a virtual machine (VM) application has been installed. This VM runs a separate virtual Ubuntu Server on the host. This VM has been allocated with its own processing power, memory and disk space. Local machine can connect to the virtual Ubuntu Server using the Wi-Fi network, SHLAB02 as shown in Figure~\ref{fig:shlab02-wlan-network}.
+The Smart Home Lab has its own server running Ubuntu Server 16.04.2 LTS. On this server, a \ac{vm} application has been installed. This VM runs a separate virtual Ubuntu Server on the host. This VM has been allocated with its own processing power, memory and disk space. Local machine can connect to the virtual Ubuntu Server using the Wi-Fi network, SHLAB02 as shown in Figure~\ref{fig:shlab02-wlan-network}.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \caption{SHLAB02 WLAN network to connect to Ubuntu Server}
 \label{fig:shlab02-wlan-network}
 \centering
 \includegraphics[height=5cm,keepaspectratio]{setup/shlab02-wlan-network.png}
 \end{figure}
 
-On the local machine, first, a SSH key or commonly known as public/private key should be generated. This can be done using the PuTTY Key Generator application as shown in Figure~\ref{fig:putty-key-generator}. This application can be downloaded at the URL given in the footnote\footnote{http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html}. The current stable version of Putty Key Generator is 0.68, as at time of writing.
+On the local machine, first, a \ac{ssh} key or commonly known as public/private key should be generated. This can be done using the PuTTY Key Generator application as shown in Figure~\ref{fig:putty-key-generator}. This application can be downloaded at the URL given in the footnote\footnote{http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html}. The current stable version of Putty Key Generator is 0.68, as at time of writing.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 	\begin{subfigure}{.49\linewidth}
 	\caption{PuTTY SSH Key Generator}
 	\label{fig:putty-key-generator}
@@ -76,7 +76,7 @@ $  sudo ufw status
 \end{lstlisting}
 
 Running this command will output the following.
-\begin{table}[h]
+\begin{table}[ht]
 \begin{tabular}{l l l}
 To & Action & From \\
 -- & -- & -- \\
@@ -89,7 +89,7 @@ Nginx HTTP (v6) & ALLOW & Anywhere \\
 
 The output on the second and third column which are 'ALLOW' and 'Anywhere' respectively indicates that the Nginx is running. The successful installation of Nginx can be further tested using any web browser by entering the host's IP address, which in this case \texttt{http://192.168.0.20}. The following page will be displayed as shown in the Figure~\ref{fig:nginx-start-screen}.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \caption{Nginx Default Start Screen}
 \label{fig:nginx-start-screen}
 \centering
@@ -401,7 +401,7 @@ Save the \texttt{wp-config.php} file and exit the nano editor.
 \subsubsection*{Step 7: Complete WordPress Installation}
 We need to complete the WordPress installation now through the web browser. Open the web browser and enter the URL \texttt{192.168.0.20}. First, we need to select the language.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \caption{WordPress language selection}
 \label{fig:wordpress-language-selection}
 \centering
@@ -410,7 +410,7 @@ We need to complete the WordPress installation now through the web browser. Open
 
 After that, we need to provide a few information on the main setup page such as \emph{Site Title}, \emph{Username}, \emph{Password} and \emph{Email}.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \caption{Main WordPress setup page}
 \centering
 \includegraphics[height=6cm,keepaspectratio]{setup/main-wp-setup.png}
@@ -433,7 +433,7 @@ http://web.smarthome.hs-furtwangen.de/wp-admin
 
 Provide the username and password stated above and login. The administration side of the website appears as shown in the figure below.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \caption{Administation page of WordPress}
 \centering
 \includegraphics[height=7cm,keepaspectratio]{setup/wp-admin-page.png}

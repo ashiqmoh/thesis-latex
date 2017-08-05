@@ -1,7 +1,7 @@
 \chapter{CCTV Live Stream}
 
 \section{Introduction}
-Another task in this thesis work is to stream live CCTV footage on the website. The CCTV used in thesis work is called PremiumBlue IP Camera as shown in the Figure~\ref{fig:premium-blue-ip-camera}. This camera is built with 720p resolutions, can be rotated and tilted remotely and monitored wirelessly. It is suitable to be used in homes, offices and labs. The user interface of the camera, which is used to view the footage and control the camera itself, can be accessed through the web browser. Additionally, it has a SD-card slot, which enables the storing of the footages and replay of them in the later time.
+Another task in this thesis work is to stream live \ac{cctv} footage on the website. The CCTV used in thesis work is called PremiumBlue IP Camera as shown in the Figure~\ref{fig:premium-blue-ip-camera}. This camera is built with 720p resolutions, can be rotated and tilted remotely and monitored wirelessly. It is suitable to be used in homes, offices and labs. The user interface of the camera, which is used to view the footage and control the camera itself, can be accessed through the web browser. Additionally, it has a SD-card slot, which enables the storing of the footages and replay of them in the later time.
 
 \begin{figure}[ht]
 \caption{PremiumBlue IP-Camera}
@@ -16,7 +16,7 @@ This chapter will discuss on how to configure the above mentioned IP-Camera; ext
 \subsection{Identifying IP Address}\label{sec:cctv-identifying-ip-address}
 \emph{The steps discussed here is part of configuration steps from the camera vendor, which can be found in the following documentation}\footnote{https://www.pollin.de/shop/downloads/D722622B.PDF}.\\
 
-The camera came with built-in web application and a bundle of softwares. To get started, the IP-Camera need to be connected to power supply and LAN-network. Next, we need to identify the IP of the camera by using the software came bundled with the camera called \emph{SearchIPCam.exe} (\emph{see} Figure \ref{search-ip-cam-exe}). This application can also be downloaded from the vendor's website\footnote{https://www.pollin.de/shop/downloads/D722622S.ZIP}. Run the program and hit the 'Refresh' button to obtain the IP address of the camera.
+The camera came with built-in web application and a bundle of softwares. To get started, the IP-Camera need to be connected to power supply and LAN-network. Next, we need to identify the \ac{ip} of the camera by using the software came bundled with the camera called \emph{SearchIPCam.exe} (\emph{see} Figure \ref{search-ip-cam-exe}). This application can also be downloaded from the vendor's website\footnote{https://www.pollin.de/shop/downloads/D722622S.ZIP}. Run the program and hit the 'Refresh' button to obtain the IP address of the camera.
 
 \begin{figure}[ht]
 \caption{SearchIPCam.exe}
@@ -47,7 +47,7 @@ After identifying the IP address of the camera, the web interface of the camera 
 \end{figure}
 
 \subsection{WLAN Setup}
-After successful login, the settings of the IP Camera can be accessed by clicking the tool button 'Einstellung' on top right of the page. In the menu list on the left panel, click on the 'WLan'. In there search for the available WLAN network by clicking the 'Suchen' button. After the program finish the search, choose the lab network identified by SSID name 'SHLAB01' or 'SHLAB02'. Enter the following details:
+After successful login, the settings of the IP Camera can be accessed by clicking the tool button 'Einstellung' on top right of the page. In the menu list on the left panel, click on the 'WLan'. In there search for the available WLAN network by clicking the 'Suchen' button. After the program finish the search, choose the lab network identified by \ac{ssid} name 'SHLAB01' or 'SHLAB02'. Enter the following details:
 \begin{itemize}
 \item WLan wird verwendet: tick
 \item SSID: 'SHLAB01' or 'SHLAB02'
@@ -76,7 +76,7 @@ Hit the 'Update' and 'Speichern' buttons and close the web browser or the tab. (
 \end{figure}
 
 \subsection{Restart}
-Now, the IP-Camera has to be restarted without connecting it to network via LAN cable. Since the wireless network credentials have been entered in the previous step, it will connect to lab network, 'SHLAB02' automatically upon start-up and will have a different IP address. Run the \emph{SearchIPCam.exe} program again as discussed in the Section~\ref{sec:cctv-identifying-ip-address} and login into the web interface using the new IP address. The IP address will be renewed when the IP-Camera is connected through wireless LAN.
+Now, the IP-Camera has to be restarted without connecting it to network via \ac{lan} cable. Since the wireless network credentials have been entered in the previous step, it will connect to lab network, 'SHLAB02' automatically upon start-up and will have a different IP address. Run the \emph{SearchIPCam.exe} program again as discussed in the Section~\ref{sec:cctv-identifying-ip-address} and login into the web interface using the new IP address. The IP address will be renewed when the IP-Camera is connected through wireless LAN.
 
 \section{Identifying the cgi-bin Module}
 \subsection{Introduction}
@@ -85,7 +85,7 @@ In order to stream the live footage or recording of the IP-Camera in the Smart H
 \subsection{Studying the Codes}\label{sec:cctv-studying-the-codes}
 The codes can be studied by using the \emph{Developer Mode} of any web browser. In this thesis, the Chrome web browser has been used. The developer mode of Chrome web browser can be opened either through (Right click {\textgreater} Inspect) option or keyboard shortcut key (Ctrl-Shift-I).
 
-The the HTML and JavaScript codes of the IP-Camera web interface, however, can't be studied easily because the are a lot of files which are embedded upon one another and referred to and from one file to another. The method used to extract the required URI and query parameters are through backtracking the video footage and the callback functions of the controller buttons.
+The the HTML and JavaScript codes of the IP-Camera web interface, however, can't be studied easily because the are a lot of files which are embedded upon one another and referred to and from one file to another. The method used to extract the required \ac{uri} and query parameters are through backtracking the video footage and the callback functions of the controller buttons.
 
 Upon successful backtracking, the video footage can be found out to be delivered through the following URI:
 \newline
@@ -98,14 +98,14 @@ Where,
 \item password: admin
 \end{itemize}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \caption{Developer Mode panel Sources}
 \label{developer-mode-panel-sources}
 \centering
 \includegraphics[width=\linewidth,keepaspectratio]{cctv/controller-backtrack.png}
 \end{figure}
 
-The URI required to control the camera (panning and tilting), can be backtracked through the controller buttons. The backtrack will lead to a function called \texttt{all\_ptz\_control(type, value)} in the \texttt{live.htm} file. This file can be found through the developer mode panel \emph{Sources}. Expand content\_frame (ffserver.htm) \textgreater push\_content\_frame (live.htm) \textgreater 192.168.0.157 nodes to find and open that file (see Figure \ref{developer-mode-panel-sources}).
+The \ac{uri} required to control the camera (panning and tilting), can be backtracked through the controller buttons. The backtrack will lead to a function called \texttt{all\_ptz\_control(type, value)} in the \texttt{live.htm} file. This file can be found through the developer mode panel \emph{Sources}. Expand content\_frame (ffserver.htm) \textgreater push\_content\_frame (live.htm) \textgreater 192.168.0.157 nodes to find and open that file (see Figure \ref{developer-mode-panel-sources}).
 
 After opening the file, the function can be found either through manual scrolling and searching or through search functionality that can be invoked through keyboard shortcut key (Ctrl-F). Through this function, the required URI to control the camera can be found out, which is:
 \newline
@@ -146,7 +146,7 @@ Command & Camera Movement \\
 
 \section{Designing the Web Page}\label{sec:cctv-designing-the-web-page}
 \subsection{Introduction}
-In this section, the process of designing the web page to stream live footage of CCTV or IP-Camera will be discussed. In order to design this page, WordPress, CSS, JavaScript and jQuery knowledge will be required. In general, the development involves styling with CSS. Additionally, JavaScript will be used to render the HTML view, handle user actions and execute AJAX request.
+In this section, the process of designing the web page to stream live footage of CCTV or IP-Camera will be discussed. In order to design this page, WordPress, CSS, JavaScript and jQuery knowledge will be required. In general, the development involves styling with CSS. Additionally, JavaScript will be used to render the HTML view, handle user actions and execute \ac{ajax} request.
 
 \subsection{Creating the Web Page}
 The web page is created by using WordPress built-in functionality. To create a new page, go to 'Page' section from the left side menu and click on 'Add New' sub-menu. Here, the page name is given as 'Live Stream' and then the page is published by clicking 'Publish' button. All the other settings are left in the default mode.

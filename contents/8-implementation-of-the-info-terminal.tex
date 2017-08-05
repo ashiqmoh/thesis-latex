@@ -1,5 +1,5 @@
 \chapter{Implementation of the Info-Terminal}
-The info-terminal has been created by using a WordPress plugin called SmartSlider3\footnote{https://wordpress.org/plugins/smart-slider-3/}. SmartSlider3 is a free plugin available in the WordPress plugin repository. It enables the creation and designation of slider easily with a lot of features.
+The info-terminal has been created by using a \ac{wp} plugin called SmartSlider3\footnote{https://wordpress.org/plugins/smart-slider-3/}. SmartSlider3 is a free plugin available in the WordPress plugin repository. It enables the creation and designation of slider easily with a lot of features.
 
 \section{Getting Started}
 First, the SmartSlider3 plugin has to be added and activated in the WordPress. After the activation, the left menu list will receive a new entry 'Smart Slider'. Click it will bring the Smart Slider dashboard interface, where slider can created, modified and deleted. A new slider can be created by clicking the 'New Slider' tile on the dashboard. Here the following details have been given:
@@ -10,7 +10,7 @@ First, the SmartSlider3 plugin has to be added and activated in the WordPress. A
 \item Preset: Default
 \item Import Sample Sliders: none
 \end{itemize}
-\begin{figure}[h]
+\begin{figure}[ht]
 \caption{Creating a new slider}
 \label{creating-a-new-slider}
 \centering
@@ -55,7 +55,7 @@ Here, the following attributes has to be set:
 
 \subsection*{Autoplay Icon Settings}
 By default, the autoplay mode in the slider is turned off. This mode has to be turned on as shown in Figure~\ref{autoplay-icon-on} and the rest the of settings are left to default settings.
-\begin{figure}[h]
+\begin{figure}[ht]
 \caption{Autoplay Icon Settings}
 \label{autoplay-icon-on}
 \centering
@@ -149,7 +149,7 @@ Under the 'Scripts n Styles' section, the following CSS codes has to be added un
 }
 \end{lstlisting}
 
-After that, under the 'Scripts' tab, the following JavaScript codes has been added:
+After that, under the 'Scripts' tab, the following \ac{js} codes has been added:
 \begin{lstlisting}
 window.n2ss.ready(1, function(slider){
 	jQuery('.home-button').click(function(){

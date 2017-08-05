@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.6.29)  24 JUL 2017 12:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.6.29)  4 AUG 2017 16:26
 entering extended mode
 **C:/Users/stupid/Desktop/MOS/thesis-latex/main.tex
 (C:/Users/stupid/Desktop/MOS/thesis-latex/main.tex
@@ -156,53 +156,226 @@ Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
 \LMex=\skip51
 \LMpt=\skip52
 )
-No file main.aux.
-\openout1 = `main.aux'.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\acro\acro.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
+Package: expl3 2017/05/29 L3 programming layer (loader) 
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-\c@lstlisting=\count107
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count108
-\scratchdimen=\dimen128
-\scratchbox=\box28
-\nofMPsegments=\count109
-\nofMParguments=\count110
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count111
-\MPscratchDim=\dimen129
-\MPnumerator=\count112
-\makeMPintoPDFobject=\count113
-\everyMPtoPDFconversion=\toks17
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
+Package: expl3 2017/05/29 L3 programming layer (code)
+\c_max_int=\count107
+\l_tmpa_int=\count108
+\l_tmpb_int=\count109
+\g_tmpa_int=\count110
+\g_tmpb_int=\count111
+\g__intarray_font_int=\count112
+\g__prg_map_int=\count113
+\c_log_iow=\count114
+\l_iow_line_count_int=\count115
+\l__iow_line_target_int=\count116
+\l__iow_one_indent_int=\count117
+\l__iow_indent_int=\count118
+\c_zero_dim=\dimen128
+\c_max_dim=\dimen129
+\l_tmpa_dim=\dimen130
+\l_tmpb_dim=\dimen131
+\g_tmpa_dim=\dimen132
+\g_tmpb_dim=\dimen133
+\c_zero_skip=\skip53
+\c_max_skip=\skip54
+\l_tmpa_skip=\skip55
+\l_tmpb_skip=\skip56
+\g_tmpa_skip=\skip57
+\g_tmpb_skip=\skip58
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count119
+\c__fp_leading_shift_int=\count120
+\c__fp_middle_shift_int=\count121
+\c__fp_trailing_shift_int=\count122
+\c__fp_big_leading_shift_int=\count123
+\c__fp_big_middle_shift_int=\count124
+\c__fp_big_trailing_shift_int=\count125
+\c__fp_Bigg_leading_shift_int=\count126
+\c__fp_Bigg_middle_shift_int=\count127
+\c__fp_Bigg_trailing_shift_int=\count128
+\c__fp_rand_size_int=\count129
+\c__fp_rand_four_int=\count130
+\c__fp_rand_eight_int=\count131
+\l__sort_length_int=\count132
+\l__sort_min_int=\count133
+\l__sort_top_int=\count134
+\l__sort_max_int=\count135
+\l__sort_true_max_int=\count136
+\l__sort_block_int=\count137
+\l__sort_begin_int=\count138
+\l__sort_end_int=\count139
+\l__sort_A_int=\count140
+\l__sort_B_int=\count141
+\l__sort_C_int=\count142
+\l__tl_build_start_index_int=\count143
+\l__tl_build_index_int=\count144
+\l__tl_analysis_normal_int=\count145
+\l__tl_analysis_index_int=\count146
+\l__tl_analysis_nesting_int=\count147
+\l__tl_analysis_type_int=\count148
+\l__regex_internal_a_int=\count149
+\l__regex_internal_b_int=\count150
+\l__regex_internal_c_int=\count151
+\l__regex_balance_int=\count152
+\l__regex_group_level_int=\count153
+\l__regex_mode_int=\count154
+\c__regex_cs_in_class_mode_int=\count155
+\c__regex_cs_mode_int=\count156
+\l__regex_catcodes_int=\count157
+\l__regex_default_catcodes_int=\count158
+\c__regex_catcode_D_int=\count159
+\c__regex_catcode_S_int=\count160
+\c__regex_catcode_L_int=\count161
+\c__regex_catcode_O_int=\count162
+\c__regex_catcode_A_int=\count163
+\c__regex_all_catcodes_int=\count164
+\l__regex_show_lines_int=\count165
+\l__regex_min_state_int=\count166
+\l__regex_max_state_int=\count167
+\l__regex_left_state_int=\count168
+\l__regex_right_state_int=\count169
+\l__regex_capturing_group_int=\count170
+\l__regex_min_pos_int=\count171
+\l__regex_max_pos_int=\count172
+\l__regex_current_pos_int=\count173
+\l__regex_start_pos_int=\count174
+\l__regex_success_pos_int=\count175
+\l__regex_current_char_int=\count176
+\l__regex_current_catcode_int=\count177
+\l__regex_last_char_int=\count178
+\l__regex_case_changed_char_int=\count179
+\l__regex_current_state_int=\count180
+\l__regex_step_int=\count181
+\l__regex_min_active_int=\count182
+\l__regex_max_active_int=\count183
+\l__regex_replacement_csnames_int=\count184
+\l__regex_match_count_int=\count185
+\l__regex_min_submatch_int=\count186
+\l__regex_submatch_int=\count187
+\l__regex_zeroth_submatch_int=\count188
+\c_empty_box=\box28
+\l_tmpa_box=\box29
+\l_tmpb_box=\box30
+\g_tmpa_box=\box31
+\g_tmpb_box=\box32
+\l__box_top_dim=\dimen134
+\l__box_bottom_dim=\dimen135
+\l__box_left_dim=\dimen136
+\l__box_right_dim=\dimen137
+\l__box_top_new_dim=\dimen138
+\l__box_bottom_new_dim=\dimen139
+\l__box_left_new_dim=\dimen140
+\l__box_right_new_dim=\dimen141
+\l__box_internal_box=\box33
+\l__coffin_internal_box=\box34
+\l__coffin_internal_dim=\dimen142
+\l__coffin_offset_x_dim=\dimen143
+\l__coffin_offset_y_dim=\dimen144
+\l__coffin_x_dim=\dimen145
+\l__coffin_y_dim=\dimen146
+\l__coffin_x_prime_dim=\dimen147
+\l__coffin_y_prime_dim=\dimen148
+\c_empty_coffin=\box35
+\l__coffin_aligned_coffin=\box36
+\l__coffin_aligned_internal_coffin=\box37
+\l_tmpa_coffin=\box38
+\l_tmpb_coffin=\box39
+\l__coffin_display_coffin=\box40
+\l__coffin_display_coord_coffin=\box41
+\l__coffin_display_pole_coffin=\box42
+\l__coffin_display_offset_dim=\dimen149
+\l__coffin_display_x_dim=\dimen150
+\l__coffin_display_y_dim=\dimen151
+\l__coffin_bounding_shift_dim=\dimen152
+\l__coffin_left_corner_dim=\dimen153
+\l__coffin_right_corner_dim=\dimen154
+\l__coffin_bottom_corner_dim=\dimen155
+\l__coffin_top_corner_dim=\dimen156
+\l__coffin_scaled_total_height_dim=\dimen157
+\l__coffin_scaled_width_dim=\dimen158
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count189
+\l__driver_tmp_box=\box43
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
+Package: xparse 2017/05/29 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count190
+\g__xparse_grabber_int=\count191
+\l__xparse_m_args_int=\count192
+\l__xparse_mandatory_args_int=\count193
+\l__xparse_v_nesting_int=\count194
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty"
+Package: l3keys2e 2017/05/29 LaTeX2e option processing using LaTeX3 keys
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3packages\xtemplate\xtemplate.st
+y"
+Package: xtemplate 2017/05/29 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen159
+\l__xtemplate_tmp_int=\count195
+\l__xtemplate_tmp_muskip=\muskip17
+\l__xtemplate_tmp_skip=\skip59
+)
+Package: acro 2017/06/21 v2.7b Typeset Acronyms
+\l__acro_tmpa_int=\count196
+\l__acro_tmpb_int=\count197
+\l__acro_tmpc_int=\count198
+\l__acro_tmpd_int=\count199
+\l__acro_page_space_skip=\skip60
+\l__acro_short_width_dim=\dimen160
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acfirstupper with sig. 'm' on line 442.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acsetup with sig. 'm' on line 591.
+.................................................
+.................................................
+. xtemplate info: "declare-object-type"
+. 
+. Declaring object type 'acro-first' taking 2 argument(s) on line 831.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareAcroFirstStyle with sig. 'mmm' on line 941.
+.................................................
+.................................................
+. xtemplate info: "declare-object-type"
+. 
+. Declaring object type 'acro-extra' taking 1 argument(s) on line 965.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareAcroExtraStyle with sig. 'mmm' on line 1004.
+.................................................
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\zref-abspage.sty"
+Package: zref-abspage 2016/05/21 v2.26 Module abspage for zref (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\zref-base.sty"
+Package: zref-base 2016/05/21 v2.26 Module base for zref (HO)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
@@ -217,7 +390,10 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-)))
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -230,6 +406,351 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+)
+\c@abspage=\count266
+Package zref Info: New property: abspage on input line 62.
+)
+.................................................
+. xtemplate info: "declare-object-type"
+. 
+. Declaring object type 'acro-page-number' taking 1 argument(s) on line 1200.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareAcroPageStyle with sig. 'mmm' on line 1249.
+.................................................
+.................................................
+. xtemplate info: "declare-object-type"
+. 
+. Declaring object type 'acro-title' taking 1 argument(s) on line 1275.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareAcroListHeading with sig. 'mm' on line 1317.
+.................................................
+.................................................
+. xtemplate info: "declare-object-type"
+. 
+. Declaring object type 'acro-list' taking 2 argument(s) on line 1321.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareAcroListStyle with sig. 'mmm' on line 1765.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ProvideAcroEnding with sig. 'mmm' on line 2275.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \AcroRegisterTrailing with sig. 'mm' on line 2998.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acdot with sig. '' on line 3070.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acspace with sig. '' on line 3071.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acifused with sig. 'm' on line 3104.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acresetall with sig. '' on line 3118.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acuseall with sig. '' on line 3121.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acreset with sig. '>{\SplitList {,}}m' on line 3124.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acuse with sig. '>{\SplitList {,}}m' on line 3127.
+.................................................
+\g__acro_barrier_int=\count267
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acbarrier with sig. '' on line 3154.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acswitchoff with sig. '' on line 3255.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acswitchon with sig. '' on line 3258.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareAcronym with sig. 'mm' on line 3840.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \printacronyms with sig. 'O{}' on line 3887.
+.................................................
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\translations\translations.sty"
+Package: translations 2017/05/16 v1.6 internationalization of LaTeX2e packages 
+(CN)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
+Package: scrlfile 2017/04/13 v3.23 KOMA-Script package (loading files)
+
+Package scrlfile, 2017/04/13 v3.23 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareAcroTranslation with sig. 'mm' on line 3925.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ac with sig. 'sO{}m' on line 4126.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \iac with sig. 'sO{}m' on line 4132.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Iac with sig. 'sO{}m' on line 4139.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Ac with sig. 'sO{}m' on line 4145.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acp with sig. 'sO{}m' on line 4151.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Acp with sig. 'sO{}m' on line 4158.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acsingle with sig. 'sO{}m' on line 4164.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Acsingle with sig. 'sO{}m' on line 4171.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acs with sig. 'sO{}m' on line 4175.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \iacs with sig. 'sO{}m' on line 4181.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Iacs with sig. 'sO{}m' on line 4188.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acsp with sig. 'sO{}m' on line 4194.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aca with sig. 'sO{}m' on line 4198.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Aca with sig. 'sO{}m' on line 4204.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \iaca with sig. 'sO{}m' on line 4210.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Iaca with sig. 'sO{}m' on line 4217.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acap with sig. 'sO{}m' on line 4223.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acl with sig. 'sO{}m' on line 4227.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \iacl with sig. 'sO{}m' on line 4233.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Iacl with sig. 'sO{}m' on line 4240.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Acl with sig. 'sO{}m' on line 4246.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aclp with sig. 'sO{}m' on line 4252.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Aclp with sig. 'sO{}m' on line 4259.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acf with sig. 'sO{}m' on line 4263.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \iacf with sig. 'sO{}m' on line 4269.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Iacf with sig. 'sO{}m' on line 4276.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Acf with sig. 'sO{}m' on line 4282.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acfp with sig. 'sO{}m' on line 4288.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Acfp with sig. 'sO{}m' on line 4295.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acflike with sig. 'smm' on line 4299.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \iacflike with sig. 'smm' on line 4305.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Iacflike with sig. 'smm' on line 4312.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acfplike with sig. 'smm' on line 4318.
+.................................................
+\g__file_internal_ior=\read1
+)
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 34.
+ (main.aux (contents/list-of-abbreviations.aux)
+(contents/3-background-works.aux) (contents/4-device.aux)
+(contents/5-technologies.aux)
+(contents/6-server-setup-wordpress-installation.aux)
+(contents/7-website-designing.aux)
+(contents/8-implementation-of-the-info-terminal.aux)
+(contents/9-cctv-live-stream.aux) (contents/10-integrating-unity-3dmodel.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+\c@lstlisting=\count268
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count269
+\scratchdimen=\dimen161
+\scratchbox=\box44
+\nofMPsegments=\count270
+\nofMParguments=\count271
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count272
+\MPscratchDim=\dimen162
+\MPnumerator=\count273
+\makeMPintoPDFobject=\count274
+\everyMPtoPDFconversion=\toks17
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
@@ -239,10 +760,230 @@ G,.JBIG2,.JB2,.eps]
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box45
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\translations\dicts\translations-b
+asic-dictionary-english.trsl"
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 34.
+ (main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+ [1
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2])
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [3] (main.lof [4
+
+])
+\tf@lof=\write4
+\openout4 = `main.lof'.
+
+ [5] (main.lot)
+\tf@lot=\write5
+\openout5 = `main.lot'.
+
+ [6
+
+]
+\openout2 = `contents/list-of-abbreviations.aux'.
+
+
+(C:/Users/stupid/Desktop/MOS/thesis-latex\contents/list-of-abbreviations.tex
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "kernel/command-already-defined"
+! 
+! Control sequence \g__acro_my-html_in_list_bool already defined.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.5 }
+     
+? 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "kernel/command-already-defined"
+! 
+! Control sequence \g__acro_my-html_pages_seq already defined.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.5 }
+     
+? 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "kernel/command-already-defined"
+! 
+! Control sequence \g__acro_my-css_in_list_bool already defined.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.10 }
+      
+? 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "kernel/command-already-defined"
+! 
+! Control sequence \g__acro_my-css_pages_seq already defined.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.10 }
+      
+? 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "kernel/command-already-defined"
+! 
+! Control sequence \g__acro_php_in_list_bool already defined.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.15 }
+      
+? 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "kernel/command-already-defined"
+! 
+! Control sequence \g__acro_php_pages_seq already defined.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.15 }
+      
+? 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "kernel/command-already-defined"
+! 
+! Control sequence \g__acro_cms_in_list_bool already defined.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.45 }
+      
+? 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "kernel/command-already-defined"
+! 
+! Control sequence \g__acro_cms_pages_seq already defined.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.45 }
+      
+? 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "kernel/command-already-defined"
+! 
+! Control sequence \g__acro_http_in_list_bool already defined.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.50 }
+      
+? 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "kernel/command-already-defined"
+! 
+! Control sequence \g__acro_http_pages_seq already defined.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.50 }
+      
+? 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "kernel/command-already-defined"
+! 
+! Control sequence \g__acro_cgi_in_list_bool already defined.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.55 }
+      
+? 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! LaTeX error: "kernel/command-already-defined"
+! 
+! Control sequence \g__acro_cgi_pages_seq already defined.
+! 
+! See the LaTeX3 documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.55 }
+      
+? 
+)
 \openout2 = `contents/3-background-works.aux'.
 
-
-(C:/Users/stupid/Desktop/MOS/thesis-latex\contents/3-background-works.tex
+ (C:/Users/stupid/Desktop/MOS/thesis-latex\contents/3-background-works.tex
 Chapter 1.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
@@ -250,23 +991,24 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
- [1
+ [7
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
+
+] [8] [9]
 Overfull \hbox (5.57922pt too wide) in paragraph at lines 89--90
 \OT1/cmr/m/n/12 The web-site uses a mod-ern web lay-out and the web page is ful
 l-width stretched.
  []
 
-[4] [5] [6]) [7]
+[10] [11] [12] [13] [14] [15] [16] [17]) [18] [19]
 \openout2 = `contents/4-device.aux'.
 
 
 (C:/Users/stupid/Desktop/MOS/thesis-latex\contents/4-device.tex
 Chapter 2.
-) [8
+) [20
 
 
 
@@ -275,33 +1017,23 @@ Chapter 2.
 
  (C:/Users/stupid/Desktop/MOS/thesis-latex\contents/5-technologies.tex
 Chapter 3.
-[9
+[21
 
 
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 22.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 22.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 22.
-LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 22.
- [10]) [11]
+ [22]) [23]
 \openout2 = `contents/6-server-setup-wordpress-installation.aux'.
 
 
 (C:/Users/stupid/Desktop/MOS/thesis-latex\contents/6-server-setup-wordpress-ins
 tallation.tex
 Chapter 4.
-
-LaTeX Warning: Reference `fig:shlab02-wlan-network' on page 12 undefined on inp
-ut line 6.
-
-<img/setup/shlab02-wlan-network.png, id=42, 220.57407pt x 309.40594pt>
+<img/setup/shlab02-wlan-network.png, id=80, 220.57407pt x 309.40594pt>
 File: img/setup/shlab02-wlan-network.png Graphic file (type png)
 <use img/setup/shlab02-wlan-network.png>
 Package pdftex.def Info: img/setup/shlab02-wlan-network.png  used on input line
@@ -311,18 +1043,14 @@ e 12.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `fig:putty-key-generator' on page 12 undefined on inpu
-t line 15.
-
-<img/setup/putty-key-generator.png, id=43, 378.66469pt x 368.1253pt>
+<img/setup/putty-key-generator.png, id=81, 378.66469pt x 368.1253pt>
 File: img/setup/putty-key-generator.png Graphic file (type png)
 <use img/setup/putty-key-generator.png>
 Package pdftex.def Info: img/setup/putty-key-generator.png  used on input line 
 21. on input line 21.
 Package pdftex.def Info: Requested size: 191.10214pt x 185.78665pt on input lin
 e 21.
-<img/setup/putty-random-key.png, id=44, 377.91188pt x 363.60844pt>
+<img/setup/putty-random-key.png, id=82, 377.91188pt x 363.60844pt>
 File: img/setup/putty-random-key.png Graphic file (type png)
 <use img/setup/putty-random-key.png>
 Package pdftex.def Info: img/setup/putty-random-key.png  used on input line 26.
@@ -332,44 +1060,25 @@ Package pdftex.def Info: Requested size: 191.10214pt x 183.8677pt on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `fig:putty-random-key' on page 12 undefined on input l
-ine 30.
-
-[12
+[24
 
 
 
 ]
-<img/setup/putty-connect.png, id=48, 354.57469pt x 341.02406pt>
+<img/setup/putty-connect.png, id=87, 354.57469pt x 341.02406pt>
 File: img/setup/putty-connect.png Graphic file (type png)
 <use img/setup/putty-connect.png>
 Package pdftex.def Info: img/setup/putty-connect.png  used on input line 40. on
  input line 40.
 Package pdftex.def Info: Requested size: 191.10214pt x 183.8016pt on input line
  40.
-<img/setup/putty-private-key.png, id=49, 353.82187pt x 341.02406pt>
+<img/setup/putty-private-key.png, id=88, 353.82187pt x 341.02406pt>
 File: img/setup/putty-private-key.png Graphic file (type png)
 <use img/setup/putty-private-key.png>
 Package pdftex.def Info: img/setup/putty-private-key.png  used on input line 46
 . on input line 46.
 Package pdftex.def Info: Requested size: 191.10214pt x 184.19188pt on input lin
 e 46.
-
-
-LaTeX Warning: Reference `fig:putty-connect' on page 13 undefined on input line
- 50.
-
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ˜ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-
-LaTeX Warning: Reference `fig:putty-private-key' on page 13 undefined on input 
-line 50.
-
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ˜ in font cmr12!
@@ -382,22 +1091,18 @@ Missing character: There is no ˜ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-[13 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/setup/shlab02-wlan-network.pn
-g> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/setup/putty-key-generator.png>
- <C:/Users/stupid/Desktop/MOS/thesis-latex/img/setup/putty-random-key.png>]
-[14 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/setup/putty-connect.png> <C:/
-Users/stupid/Desktop/MOS/thesis-latex/img/setup/putty-private-key.png>]
-
-LaTeX Warning: Reference `fig:nginx-start-screen' on page 15 undefined on input
- line 90.
-
-
-Overfull \hbox (18.94296pt too wide) in paragraph at lines 90--91
-\OT1/cmr/m/n/12 by en-ter-ing the host's IP ad-dress, which in this case \OT1/c
-mtt/m/n/12 http://192.168.0.20\OT1/cmr/m/n/12 .
- []
-
-<img/setup/nginx-start-screen.png, id=58, 579.16376pt x 212.795pt>
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ˜ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [25 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/setup/shlab02-wlan-network.p
+ng> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/setup/putty-key-generator.png
+> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/setup/putty-random-key.png>] [2
+6 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/setup/putty-connect.png> <C:/Us
+ers/stupid/Desktop/MOS/thesis-latex/img/setup/putty-private-key.png>]
+<img/setup/nginx-start-screen.png, id=96, 579.16376pt x 212.795pt>
 File: img/setup/nginx-start-screen.png Graphic file (type png)
 <use img/setup/nginx-start-screen.png>
 Package pdftex.def Info: img/setup/nginx-start-screen.png  used on input line 9
@@ -405,88 +1110,76 @@ Package pdftex.def Info: img/setup/nginx-start-screen.png  used on input line 9
 Package pdftex.def Info: Requested size: 387.21584pt x 142.26378pt on input lin
 e 96.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[27 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/setup/nginx-start-screen.png>
+]
+Overfull \hbox (4.08429pt too wide) in paragraph at lines 109--110
+\OT1/cmr/m/n/12 the pass-word \OT1/cmtt/m/n/12 d[]XKdEoCwX,4EnO \OT1/cmr/m/n/12
+ has been given. Here are the MySQL database
+ []
 
-[15] [16 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/setup/nginx-start-screen
-.png>]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 129.
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 133.
 
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 133.
-
-Overfull \hbox (22.26068pt too wide) in paragraph at lines 150--151
-\OT1/cmr/m/n/12 The fol-low-ing com-mand has been en-tered to in-stall \OT1/cmt
-t/m/n/12 php-fpm \OT1/cmr/m/n/12 and \OT1/cmtt/m/n/12 php-mysql\OT1/cmr/m/n/12 
-. 
+ [28]
+Overfull \hbox (44.96501pt too wide) in paragraph at lines 156--157
+\OT1/cmr/m/n/12 Initial in-stal-la-tion of PHP has to be se-cured by com-ment-i
+ng out the \OT1/cmtt/m/n/12 cgi[]fix[]pathinfo
  []
 
-[17]
 LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 180
 .
 LaTeX Font Info:    No file OMScmtt.fd. on input line 180.
-
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbackslash' on input line 180.
 
-[18] [19]
-Overfull \hbox (1.09468pt too wide) in paragraph at lines 241--242
-[]\OT1/cmr/m/n/12 Enter the pass-word \OT1/cmtt/m/n/12 d[]XKdEoCwX,4EnO \OT1/cm
-r/m/n/12 for the user \OT1/cmtt/m/n/12 root \OT1/cmr/m/n/12 when prompted. 
+[29] [30] [31] [32] [33] [34]
+Overfull \hbox (3.70842pt too wide) in paragraph at lines 402--403
+\OT1/cmr/m/n/12 We need to com-plete the Word-Press in-stal-la-tion now through
+ the web browser.
  []
 
-
-Overfull \hbox (9.64645pt too wide) in paragraph at lines 248--249
-[]\OT1/cmr/m/n/12 Next, cre-ate a new user to op-er-ate the above cre-ated \OT1
-/cmtt/m/n/12 wordpress \OT1/cmr/m/n/12 database.
- []
-
-[20] [21]
-Overfull \hbox (22.08601pt too wide) in paragraph at lines 340--341
-\OT1/cmr/m/n/12 Download the lat-est ver-sion of sta-ble Word-Press from https:
-//wordpress.org
- []
-
-[22] [23]
-<img/setup/language-selection.png, id=88, 382.42876pt x 553.06625pt>
+<img/setup/language-selection.png, id=123, 382.42876pt x 553.06625pt>
 File: img/setup/language-selection.png Graphic file (type png)
 <use img/setup/language-selection.png>
 Package pdftex.def Info: img/setup/language-selection.png  used on input line 4
 08. on input line 408.
 Package pdftex.def Info: Requested size: 98.36708pt x 142.26378pt on input line
  408.
-<img/setup/main-wp-setup.png, id=89, 575.90157pt x 622.57594pt>
+<img/setup/main-wp-setup.png, id=124, 575.90157pt x 622.57594pt>
 File: img/setup/main-wp-setup.png Graphic file (type png)
 <use img/setup/main-wp-setup.png>
 Package pdftex.def Info: img/setup/main-wp-setup.png  used on input line 416. o
 n input line 416.
 Package pdftex.def Info: Requested size: 157.92085pt x 170.71652pt on input lin
 e 416.
- [24 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/setup/language-selection.png
-> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/setup/main-wp-setup.png>]
-<img/setup/wp-admin-page.png, id=96, 717.43031pt x 453.19313pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/setup/language-selection.png>
+]
+<img/setup/wp-admin-page.png, id=130, 717.43031pt x 453.19313pt>
 File: img/setup/wp-admin-page.png Graphic file (type png)
 <use img/setup/wp-admin-page.png>
 Package pdftex.def Info: img/setup/wp-admin-page.png  used on input line 439. o
 n input line 439.
 Package pdftex.def Info: Requested size: 315.29811pt x 199.16928pt on input lin
 e 439.
-) [25 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/setup/wp-admin-page.png>]
+) [36 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/setup/main-wp-setup.png> <C
+:/Users/stupid/Desktop/MOS/thesis-latex/img/setup/wp-admin-page.png>]
 \openout2 = `contents/7-website-designing.aux'.
 
- (C:/Users/stupid/Desktop/MOS/thesis-latex\contents/7-website-designing.tex
+
+(C:/Users/stupid/Desktop/MOS/thesis-latex\contents/7-website-designing.tex
 Chapter 5.
-
-LaTeX Warning: Reference `enabling-page-builder' on page 26 undefined on input 
-line 14.
-
-<img/website-designing/enabling-page-builder.png, id=102, 1016.29688pt x 501.37
+<img/website-designing/enabling-page-builder.png, id=136, 1016.29688pt x 501.37
 312pt>
 File: img/website-designing/enabling-page-builder.png Graphic file (type png)
 <use img/website-designing/enabling-page-builder.png>
@@ -497,16 +1190,12 @@ Package pdftex.def Info: Requested size: 288.376pt x 142.26378pt on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `row-section-explanation' on page 26 undefined on inpu
-t line 24.
-
-[26
+[37
 
 
 
 ]
-<img/website-designing/row-section-explanation.png, id=106, 655.69969pt x 376.4
+<img/website-designing/row-section-explanation.png, id=141, 655.69969pt x 376.4
 0625pt>
 File: img/website-designing/row-section-explanation.png Graphic file (type png)
 
@@ -515,22 +1204,14 @@ Package pdftex.def Info: img/website-designing/row-section-explanation.png  use
 d on input line 30. on input line 30.
 Package pdftex.def Info: Requested size: 247.82777pt x 142.26378pt on input lin
 e 30.
-
-
-LaTeX Warning: Reference `adding-row' on page 27 undefined on input line 33.
-
-
-LaTeX Warning: Reference `adding-column' on page 27 undefined on input line 33.
-
-
-<img/website-designing/adding-row.png, id=107, 669.2503pt x 363.60844pt>
+<img/website-designing/adding-row.png, id=142, 669.2503pt x 363.60844pt>
 File: img/website-designing/adding-row.png Graphic file (type png)
 <use img/website-designing/adding-row.png>
 Package pdftex.def Info: img/website-designing/adding-row.png  used on input li
 ne 41. on input line 41.
 Package pdftex.def Info: Requested size: 191.10214pt x 103.82921pt on input lin
 e 41.
-<img/website-designing/adding-column.png, id=108, 1011.02719pt x 481.04718pt>
+<img/website-designing/adding-column.png, id=143, 1011.02719pt x 481.04718pt>
 File: img/website-designing/adding-column.png Graphic file (type png)
 <use img/website-designing/adding-column.png>
 Package pdftex.def Info: img/website-designing/adding-column.png  used on input
@@ -538,23 +1219,23 @@ Package pdftex.def Info: img/website-designing/adding-column.png  used on input
 Package pdftex.def Info: Requested size: 191.10214pt x 90.92279pt on input line
  47.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `list-of-widgets' on page 27 undefined on input line 5
-1.
-
-[27 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/enabling-pa
-ge-builder.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing
-/row-section-explanation.png>]
-<img/website-designing/list-of-widgets.png, id=112, 998.9822pt x 476.53032pt>
+<img/website-designing/list-of-widgets.png, id=144, 998.9822pt x 476.53032pt>
 File: img/website-designing/list-of-widgets.png Graphic file (type png)
 <use img/website-designing/list-of-widgets.png>
 Package pdftex.def Info: img/website-designing/list-of-widgets.png  used on inp
 ut line 57. on input line 57.
 Package pdftex.def Info: Requested size: 298.23363pt x 142.26378pt on input lin
 e 57.
-<img/website-designing/row-before-adding-widget.png, id=113, 884.55469pt x 475.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[38 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/enabling-pa
+ge-builder.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing
+/row-section-explanation.png>]
+<img/website-designing/row-before-adding-widget.png, id=148, 884.55469pt x 475.
 02469pt>
 File: img/website-designing/row-before-adding-widget.png Graphic file (type png
 )
@@ -563,7 +1244,7 @@ Package pdftex.def Info: img/website-designing/row-before-adding-widget.png  us
 ed on input line 68. on input line 68.
 Package pdftex.def Info: Requested size: 191.10214pt x 102.62119pt on input lin
 e 68.
-<img/website-designing/row-after-adding-widget.png, id=114, 886.06032pt x 448.6
+<img/website-designing/row-after-adding-widget.png, id=149, 886.06032pt x 448.6
 7625pt>
 File: img/website-designing/row-after-adding-widget.png Graphic file (type png)
 
@@ -572,19 +1253,13 @@ Package pdftex.def Info: img/website-designing/row-after-adding-widget.png  use
 d on input line 74. on input line 74.
 Package pdftex.def Info: Requested size: 191.10214pt x 96.76474pt on input line
  74.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[28 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/adding-row.
-png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/adding-col
-umn.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/list-o
-f-widgets.png>]
-
-LaTeX Warning: Reference `button-class-name' on page 29 undefined on input line
- 88.
-
-<img/website-designing/button-class-name.png, id=118, 992.95969pt x 472.01344pt
+ [39 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/adding-row
+.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/adding-co
+lumn.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/list-
+of-widgets.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing
+/row-before-adding-widget.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/we
+bsite-designing/row-after-adding-widget.png>]
+<img/website-designing/button-class-name.png, id=153, 992.95969pt x 472.01344pt
 >
 File: img/website-designing/button-class-name.png Graphic file (type png)
 <use img/website-designing/button-class-name.png>
@@ -593,20 +1268,10 @@ nput line 94. on input line 94.
 Package pdftex.def Info: Requested size: 299.26897pt x 142.26378pt on input lin
 e 94.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `destination-url-button' on page 29 undefined on input
- line 97.
-
-
-LaTeX Warning: Reference `target-element-id' on page 29 undefined on input line
- 97.
-
-[29 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/row-before-
-adding-widget.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-design
-ing/row-after-adding-widget.png>]
-<img/website-designing/destination-url-button.png, id=122, 1016.29688pt x 500.6
+<img/website-designing/destination-url-button.png, id=154, 1016.29688pt x 500.6
 2032pt>
 File: img/website-designing/destination-url-button.png Graphic file (type png)
 <use img/website-designing/destination-url-button.png>
@@ -614,14 +1279,17 @@ Package pdftex.def Info: img/website-designing/destination-url-button.png  used
  on input line 103. on input line 103.
 Package pdftex.def Info: Requested size: 288.81021pt x 142.26378pt on input lin
 e 103.
-<img/website-designing/destination-url-1.png, id=123, 1011.78pt x 497.60907pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/website-designing/destination-url-1.png, id=155, 1011.78pt x 497.60907pt>
 File: img/website-designing/destination-url-1.png Graphic file (type png)
 <use img/website-designing/destination-url-1.png>
 Package pdftex.def Info: img/website-designing/destination-url-1.png  used on i
 nput line 112. on input line 112.
 Package pdftex.def Info: Requested size: 191.10214pt x 93.98482pt on input line
  112.
-<img/website-designing/destination-url-2.png, id=124, 1009.52156pt x 493.0922pt
+<img/website-designing/destination-url-2.png, id=156, 1009.52156pt x 493.0922pt
 >
 File: img/website-designing/destination-url-2.png Graphic file (type png)
 <use img/website-designing/destination-url-2.png>
@@ -629,7 +1297,7 @@ Package pdftex.def Info: img/website-designing/destination-url-2.png  used on i
 nput line 116. on input line 116.
 Package pdftex.def Info: Requested size: 191.10214pt x 93.34238pt on input line
  116.
-<img/website-designing/destination-url-3.png, id=125, 1011.78pt x 491.58656pt>
+<img/website-designing/destination-url-3.png, id=157, 1011.78pt x 491.58656pt>
 File: img/website-designing/destination-url-3.png Graphic file (type png)
 <use img/website-designing/destination-url-3.png>
 Package pdftex.def Info: img/website-designing/destination-url-3.png  used on i
@@ -637,17 +1305,10 @@ nput line 120. on input line 120.
 Package pdftex.def Info: Requested size: 191.10214pt x 92.84734pt on input line
  120.
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/button-clas
-s-name.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/des
-tination-url-button.png>]
-
-LaTeX Warning: Reference `scripts-n-styles' on page 31 undefined on input line 
-127.
-
-<img/website-designing/scripts-n-styles.png, id=129, 1011.02719pt x 500.62032pt
+[40]
+<img/website-designing/scripts-n-styles.png, id=161, 1011.02719pt x 500.62032pt
 >
 File: img/website-designing/scripts-n-styles.png Graphic file (type png)
 <use img/website-designing/scripts-n-styles.png>
@@ -655,12 +1316,14 @@ Package pdftex.def Info: img/website-designing/scripts-n-styles.png  used on in
 put line 133. on input line 133.
 Package pdftex.def Info: Requested size: 287.31268pt x 142.26378pt on input lin
 e 133.
-[31 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/destination
--url-1.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/des
-tination-url-2.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-desig
-ning/destination-url-3.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/websi
-te-designing/scripts-n-styles.png>]
-<img/website-designing/javascript-bottom-column.png, id=134, 1027.58907pt x 499
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[41 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/button-clas
+s-name.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/des
+tination-url-button.png>]
+<img/website-designing/javascript-bottom-column.png, id=165, 1027.58907pt x 499
 .11469pt>
 File: img/website-designing/javascript-bottom-column.png Graphic file (type png
 )
@@ -670,53 +1333,54 @@ ed on input line 142. on input line 142.
 Package pdftex.def Info: Requested size: 292.89728pt x 142.26378pt on input lin
 e 142.
 
-Overfull \hbox (7.37823pt too wide) in paragraph at lines 162--163
-[][][][][][][][][][][][][][][][][][]  
- []
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Overfull \hbox (77.37915pt too wide) in paragraph at lines 164--165
+[42 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/destination
+-url-1.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/des
+tination-url-2.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-desig
+ning/destination-url-3.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/websi
+te-designing/scripts-n-styles.png>]
+Overfull \hbox (48.00446pt too wide) in paragraph at lines 164--165
 [][][][][][][][][][][][][][]  
  []
 
-
-LaTeX Warning: Reference `class-name-sr' on page 32 undefined on input line 167
-.
-
-[32 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/javascript-
-bottom-column.png>]
-<img/website-designing/class-name-sr-1.png, id=138, 1011.78pt x 499.8675pt>
+<img/website-designing/class-name-sr-1.png, id=169, 1011.78pt x 499.8675pt>
 File: img/website-designing/class-name-sr-1.png Graphic file (type png)
 <use img/website-designing/class-name-sr-1.png>
 Package pdftex.def Info: img/website-designing/class-name-sr-1.png  used on inp
 ut line 175. on input line 175.
 Package pdftex.def Info: Requested size: 191.10214pt x 94.41138pt on input line
  175.
-<img/website-designing/class-name-sr-2.png, id=139, 1011.78pt x 499.8675pt>
+<img/website-designing/class-name-sr-2.png, id=170, 1011.78pt x 499.8675pt>
 File: img/website-designing/class-name-sr-2.png Graphic file (type png)
 <use img/website-designing/class-name-sr-2.png>
 Package pdftex.def Info: img/website-designing/class-name-sr-2.png  used on inp
 ut line 179. on input line 179.
 Package pdftex.def Info: Requested size: 191.10214pt x 94.41138pt on input line
  179.
-<img/website-designing/class-name-sr-3.png, id=140, 1011.78pt x 501.37312pt>
+<img/website-designing/class-name-sr-3.png, id=171, 1011.78pt x 501.37312pt>
 File: img/website-designing/class-name-sr-3.png Graphic file (type png)
 <use img/website-designing/class-name-sr-3.png>
 Package pdftex.def Info: img/website-designing/class-name-sr-3.png  used on inp
 ut line 183. on input line 183.
 Package pdftex.def Info: Requested size: 191.10214pt x 94.69576pt on input line
  183.
-) [33 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/class-nam
-e-sr-1.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/cla
-ss-name-sr-2.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designi
-ng/class-name-sr-3.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [43 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website-designing/javascrip
+t-bottom-column.png>] [44 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/website
+-designing/class-name-sr-1.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/w
+ebsite-designing/class-name-sr-2.png> <C:/Users/stupid/Desktop/MOS/thesis-latex
+/img/website-designing/class-name-sr-3.png>]
 \openout2 = `contents/8-implementation-of-the-info-terminal.aux'.
 
 
 (C:/Users/stupid/Desktop/MOS/thesis-latex\contents/8-implementation-of-the-info
 -terminal.tex
 Chapter 6.
-<img/info-terminal/creating-new-slider.png, id=145, 431.36156pt x 407.27156pt>
+<img/info-terminal/creating-new-slider.png, id=180, 431.36156pt x 407.27156pt>
 File: img/info-terminal/creating-new-slider.png Graphic file (type png)
 <use img/info-terminal/creating-new-slider.png>
 Package pdftex.def Info: img/info-terminal/creating-new-slider.png  used on inp
@@ -726,17 +1390,13 @@ e 17.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[34
+[45
 
 
 
-] [35 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/creating-new-
+] [46 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/creating-new-
 slider.png>]
-
-LaTeX Warning: Reference `autoplay-icon-on' on page 36 undefined on input line 
-57.
-
-<img/info-terminal/autoplay-icon-on.png, id=152, 432.86719pt x 143.03438pt>
+<img/info-terminal/autoplay-icon-on.png, id=187, 432.86719pt x 143.03438pt>
 File: img/info-terminal/autoplay-icon-on.png Graphic file (type png)
 <use img/info-terminal/autoplay-icon-on.png>
 Package pdftex.def Info: img/info-terminal/autoplay-icon-on.png  used on input 
@@ -744,14 +1404,11 @@ line 62. on input line 62.
 Package pdftex.def Info: Requested size: 258.32204pt x 85.35826pt on input line
  62.
 
-LaTeX Warning: Reference `slider-shortcode' on page 36 undefined on input line 
+
+LaTeX Warning: Reference `slider-shortcode' on page 47 undefined on input line 
 74.
 
-
-LaTeX Warning: Reference `inserting-slider-into-web-page' on page 36 undefined 
-on input line 74.
-
-<img/info-terminal/add-new-page.png, id=153, 67.75313pt x 15.05624pt>
+<img/info-terminal/add-new-page.png, id=188, 67.75313pt x 15.05624pt>
 File: img/info-terminal/add-new-page.png Graphic file (type png)
 <use img/info-terminal/add-new-page.png>
 Package pdftex.def Info: img/info-terminal/add-new-page.png  used on input line
@@ -764,7 +1421,7 @@ Package pdftex.def Info: img/info-terminal/add-new-page.png  used on input line
  77. on input line 77.
 Package pdftex.def Info: Requested size: 67.75294pt x 15.0562pt on input line 7
 7.
-<img/info-terminal/pages-menu.png, id=154, 85.06781pt x 21.83156pt>
+<img/info-terminal/pages-menu.png, id=189, 85.06781pt x 21.83156pt>
 File: img/info-terminal/pages-menu.png Graphic file (type png)
 <use img/info-terminal/pages-menu.png>
 Package pdftex.def Info: img/info-terminal/pages-menu.png  used on input line 7
@@ -777,42 +1434,30 @@ Package pdftex.def Info: img/info-terminal/pages-menu.png  used on input line 7
 7. on input line 77.
 Package pdftex.def Info: Requested size: 85.0676pt x 21.8315pt on input line 77
 .
-[36 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/autoplay-icon-o
+[47 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/autoplay-icon-o
 n.png>]
-
-LaTeX Warning: Reference `new-slide-tile-icon' on page 37 undefined on input li
-ne 86.
-
-<img/info-terminal/new-slide-tile-icon.png, id=159, 685.05937pt x 116.68594pt>
+<img/info-terminal/new-slide-tile-icon.png, id=194, 685.05937pt x 116.68594pt>
 File: img/info-terminal/new-slide-tile-icon.png Graphic file (type png)
 <use img/info-terminal/new-slide-tile-icon.png>
 Package pdftex.def Info: img/info-terminal/new-slide-tile-icon.png  used on inp
 ut line 91. on input line 91.
 Package pdftex.def Info: Requested size: 334.09314pt x 56.9055pt on input line 
 91.
-
-LaTeX Warning: Reference `slide-general-settings' on page 37 undefined on input
- line 94.
-
-
-LaTeX Warning: Reference `slide-background' on page 37 undefined on input line 
-94.
-
-<img/info-terminal/slide-background.png, id=160, 442.65375pt x 268.75406pt>
+<img/info-terminal/slide-background.png, id=195, 442.65375pt x 268.75406pt>
 File: img/info-terminal/slide-background.png Graphic file (type png)
 <use img/info-terminal/slide-background.png>
 Package pdftex.def Info: img/info-terminal/slide-background.png  used on input 
 line 108. on input line 108.
 Package pdftex.def Info: Requested size: 140.59164pt x 85.35826pt on input line
  108.
-<img/info-terminal/slide-settings.png, id=161, 481.04718pt x 294.34969pt>
+<img/info-terminal/slide-settings.png, id=196, 481.04718pt x 294.34969pt>
 File: img/info-terminal/slide-settings.png Graphic file (type png)
 <use img/info-terminal/slide-settings.png>
 Package pdftex.def Info: img/info-terminal/slide-settings.png  used on input li
 ne 114. on input line 114.
 Package pdftex.def Info: Requested size: 139.5001pt x 85.35826pt on input line 
 114.
-<img/info-terminal/text-layer-icon.png, id=162, 21.83156pt x 21.07875pt>
+<img/info-terminal/text-layer-icon.png, id=197, 21.83156pt x 21.07875pt>
 File: img/info-terminal/text-layer-icon.png Graphic file (type png)
 <use img/info-terminal/text-layer-icon.png>
 Package pdftex.def Info: img/info-terminal/text-layer-icon.png  used on input l
@@ -825,22 +1470,18 @@ Package pdftex.def Info: img/info-terminal/text-layer-icon.png  used on input l
 ine 119. on input line 119.
 Package pdftex.def Info: Requested size: 21.8315pt x 21.07867pt on input line 1
 19.
-
-LaTeX Warning: Reference `text-layer-widget' on page 37 undefined on input line
- 119.
-
-<img/info-terminal/text-layer-widget.png, id=163, 234.1247pt x 293.59688pt>
+<img/info-terminal/text-layer-widget.png, id=198, 234.1247pt x 293.59688pt>
 File: img/info-terminal/text-layer-widget.png Graphic file (type png)
 <use img/info-terminal/text-layer-widget.png>
 Package pdftex.def Info: img/info-terminal/text-layer-widget.png  used on input
  line 124. on input line 124.
 Package pdftex.def Info: Requested size: 68.06589pt x 85.35826pt on input line 
 124.
-[37 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/add-new-page.pn
-g> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/pages-menu.png> 
-<C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/new-slide-tile-icon
-.png>]
-<img/info-terminal/pencil-icon.png, id=168, 27.85406pt x 24.84282pt>
+ [48 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/add-new-page.p
+ng> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/pages-menu.png>
+ <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/new-slide-tile-ico
+n.png>]
+<img/info-terminal/pencil-icon.png, id=202, 27.85406pt x 24.84282pt>
 File: img/info-terminal/pencil-icon.png Graphic file (type png)
 <use img/info-terminal/pencil-icon.png>
 Package pdftex.def Info: img/info-terminal/pencil-icon.png  used on input line 
@@ -853,7 +1494,7 @@ Package pdftex.def Info: img/info-terminal/pencil-icon.png  used on input line
 127. on input line 127.
 Package pdftex.def Info: Requested size: 27.85397pt x 24.84274pt on input line 
 127.
-<img/info-terminal/widget-gear-icon.png, id=169, 28.60687pt x 25.59563pt>
+<img/info-terminal/widget-gear-icon.png, id=203, 28.60687pt x 25.59563pt>
 File: img/info-terminal/widget-gear-icon.png Graphic file (type png)
 <use img/info-terminal/widget-gear-icon.png>
 Package pdftex.def Info: img/info-terminal/widget-gear-icon.png  used on input 
@@ -866,7 +1507,7 @@ Package pdftex.def Info: img/info-terminal/widget-gear-icon.png  used on input
 line 133. on input line 133.
 Package pdftex.def Info: Requested size: 28.6068pt x 25.59555pt on input line 1
 33.
-<img/info-terminal/home-button-align.png, id=170, 118.94438pt x 23.33719pt>
+<img/info-terminal/home-button-align.png, id=204, 118.94438pt x 23.33719pt>
 File: img/info-terminal/home-button-align.png Graphic file (type png)
 <use img/info-terminal/home-button-align.png>
 Package pdftex.def Info: img/info-terminal/home-button-align.png  used on input
@@ -891,20 +1532,15 @@ Package pdftex.def Info: img/info-terminal/pages-menu.png  used on input line 1
 42. on input line 142.
 Package pdftex.def Info: Requested size: 85.0676pt x 21.8315pt on input line 14
 2.
-
-
-LaTeX Warning: Reference `inserting-slider-into-web-page' on page 38 undefined 
-on input line 142.
-
-[38 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/slide-backgroun
-d.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/slide-settin
-gs.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/text-layer-
-icon.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/text-laye
-r-widget.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/penci
-l-icon.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/widget-
-gear-icon.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/home
--button-align.png>]
-<img/info-terminal/header-icon.png, id=174, 27.85406pt x 27.85406pt>
+ [49 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/slide-backgrou
+nd.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/slide-setti
+ngs.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/text-layer
+-icon.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/text-lay
+er-widget.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/penc
+il-icon.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/widget
+-gear-icon.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/hom
+e-button-align.png>]
+<img/info-terminal/header-icon.png, id=209, 27.85406pt x 27.85406pt>
 File: img/info-terminal/header-icon.png Graphic file (type png)
 <use img/info-terminal/header-icon.png>
 Package pdftex.def Info: img/info-terminal/header-icon.png  used on input line 
@@ -917,11 +1553,6 @@ Package pdftex.def Info: img/info-terminal/header-icon.png  used on input line
 164. on input line 164.
 Package pdftex.def Info: Requested size: 27.85397pt x 27.85397pt on input line 
 164.
-
-
-LaTeX Warning: Reference `fig:info-terminal-adding-header-text' on page 39 unde
-fined on input line 164.
-
 File: img/info-terminal/widget-gear-icon.png Graphic file (type png)
 <use img/info-terminal/widget-gear-icon.png>
 Package pdftex.def Info: img/info-terminal/widget-gear-icon.png  used on input 
@@ -934,25 +1565,21 @@ Package pdftex.def Info: img/info-terminal/widget-gear-icon.png  used on input
 line 164. on input line 164.
 Package pdftex.def Info: Requested size: 28.6068pt x 25.59555pt on input line 1
 64.
-
-LaTeX Warning: Reference `fig:info-terminal-header-settings' on page 39 undefin
-ed on input line 164.
-
-<img/info-terminal/adding-header-element.png, id=175, 204.765pt x 328.97906pt>
+<img/info-terminal/adding-header-element.png, id=210, 204.765pt x 328.97906pt>
 File: img/info-terminal/adding-header-element.png Graphic file (type png)
 <use img/info-terminal/adding-header-element.png>
 Package pdftex.def Info: img/info-terminal/adding-header-element.png  used on i
 nput line 171. on input line 171.
 Package pdftex.def Info: Requested size: 61.98299pt x 99.58464pt on input line 
 171.
-<img/info-terminal/header-settings.png, id=176, 204.01219pt x 328.97906pt>
+<img/info-terminal/header-settings.png, id=211, 204.01219pt x 328.97906pt>
 File: img/info-terminal/header-settings.png Graphic file (type png)
 <use img/info-terminal/header-settings.png>
 Package pdftex.def Info: img/info-terminal/header-settings.png  used on input l
 ine 177. on input line 177.
 Package pdftex.def Info: Requested size: 61.75511pt x 99.58464pt on input line 
 177.
-<img/info-terminal/image-icon.png, id=177, 17.31468pt x 16.56187pt>
+<img/info-terminal/image-icon.png, id=212, 17.31468pt x 16.56187pt>
 File: img/info-terminal/image-icon.png Graphic file (type png)
 <use img/info-terminal/image-icon.png>
 Package pdftex.def Info: img/info-terminal/image-icon.png  used on input line 1
@@ -965,15 +1592,11 @@ Package pdftex.def Info: img/info-terminal/image-icon.png  used on input line 1
 82. on input line 182.
 Package pdftex.def Info: Requested size: 17.31462pt x 16.56183pt on input line 
 182.
-
-LaTeX Warning: Reference `fig:image-widget' on page 39 undefined on input line 
-182.
-
-[39 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/header-icon.png
-> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/adding-header-ele
-ment.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/header-se
-ttings.png>]
-<img/info-terminal/added-image.png, id=183, 203.25937pt x 328.22626pt>
+ [50 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/header-icon.pn
+g> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/adding-header-el
+ement.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/header-s
+ettings.png>]
+<img/info-terminal/added-image.png, id=218, 203.25937pt x 328.22626pt>
 File: img/info-terminal/added-image.png Graphic file (type png)
 <use img/info-terminal/added-image.png>
 Package pdftex.def Info: img/info-terminal/added-image.png  used on input line 
@@ -982,43 +1605,34 @@ Package pdftex.def Info: Requested size: 61.6699pt x 99.58464pt on input line 1
 88.
 
 
-LaTeX Warning: Reference `fig:oveview-buttons' on page 40 undefined on input li
+LaTeX Warning: Reference `fig:oveview-buttons' on page 51 undefined on input li
 ne 192.
 
-<img/info-terminal/overview-buttons.png, id=184, 565.36218pt x 271.0125pt>
+<img/info-terminal/overview-buttons.png, id=219, 565.36218pt x 271.0125pt>
 File: img/info-terminal/overview-buttons.png Graphic file (type png)
 <use img/info-terminal/overview-buttons.png>
 Package pdftex.def Info: img/info-terminal/overview-buttons.png  used on input 
 line 198. on input line 198.
 Package pdftex.def Info: Requested size: 207.74007pt x 99.58464pt on input line
  198.
-
-LaTeX Warning: Reference `sec:adding-header' on page 40 undefined on input line
- 202.
-
-[40 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/image-icon.png>
+<img/info-terminal/widget-paint-icon.png, id=220, 25.59563pt x 21.07875pt>
+File: img/info-terminal/widget-paint-icon.png Graphic file (type png)
+<use img/info-terminal/widget-paint-icon.png>
+Package pdftex.def Info: img/info-terminal/widget-paint-icon.png  used on input
+ line 205. on input line 205.
+Package pdftex.def Info: Requested size: 25.59555pt x 21.07867pt on input line 
+205.
+File: img/info-terminal/widget-paint-icon.png Graphic file (type png)
+<use img/info-terminal/widget-paint-icon.png>
+Package pdftex.def Info: img/info-terminal/widget-paint-icon.png  used on input
+ line 205. on input line 205.
+Package pdftex.def Info: Requested size: 25.59555pt x 21.07867pt on input line 
+205.
+[51 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/image-icon.png>
  <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/added-image.png> <
 C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/overview-buttons.png
 >]
-<img/info-terminal/widget-paint-icon.png, id=189, 25.59563pt x 21.07875pt>
-File: img/info-terminal/widget-paint-icon.png Graphic file (type png)
-<use img/info-terminal/widget-paint-icon.png>
-Package pdftex.def Info: img/info-terminal/widget-paint-icon.png  used on input
- line 205. on input line 205.
-Package pdftex.def Info: Requested size: 25.59555pt x 21.07867pt on input line 
-205.
-File: img/info-terminal/widget-paint-icon.png Graphic file (type png)
-<use img/info-terminal/widget-paint-icon.png>
-Package pdftex.def Info: img/info-terminal/widget-paint-icon.png  used on input
- line 205. on input line 205.
-Package pdftex.def Info: Requested size: 25.59555pt x 21.07867pt on input line 
-205.
-
-
-LaTeX Warning: Reference `fig:header-designing' on page 41 undefined on input l
-ine 205.
-
-<img/info-terminal/align-center.png, id=190, 17.31468pt x 15.80907pt>
+<img/info-terminal/align-center.png, id=225, 17.31468pt x 15.80907pt>
 File: img/info-terminal/align-center.png Graphic file (type png)
 <use img/info-terminal/align-center.png>
 Package pdftex.def Info: img/info-terminal/align-center.png  used on input line
@@ -1031,7 +1645,7 @@ Package pdftex.def Info: img/info-terminal/align-center.png  used on input line
  209. on input line 209.
 Package pdftex.def Info: Requested size: 17.31462pt x 15.809pt on input line 20
 9.
-<img/info-terminal/header-designing.png, id=191, 204.765pt x 320.69812pt>
+<img/info-terminal/header-designing.png, id=226, 204.765pt x 320.69812pt>
 File: img/info-terminal/header-designing.png Graphic file (type png)
 <use img/info-terminal/header-designing.png>
 Package pdftex.def Info: img/info-terminal/header-designing.png  used on input 
@@ -1050,18 +1664,14 @@ Package pdftex.def Info: img/info-terminal/widget-gear-icon.png  used on input
 line 223. on input line 223.
 Package pdftex.def Info: Requested size: 28.6068pt x 25.59555pt on input line 2
 23.
-
-LaTeX Warning: Reference `fig:css-class-field' on page 41 undefined on input li
-ne 223.
-
-<img/info-terminal/css-class-field.png, id=192, 204.765pt x 319.94531pt>
+<img/info-terminal/css-class-field.png, id=227, 204.765pt x 319.94531pt>
 File: img/info-terminal/css-class-field.png Graphic file (type png)
 <use img/info-terminal/css-class-field.png>
 Package pdftex.def Info: img/info-terminal/css-class-field.png  used on input l
 ine 234. on input line 234.
 Package pdftex.def Info: Requested size: 63.73268pt x 99.58464pt on input line 
 234.
-<img/info-terminal/design-hover.png, id=193, 73.02281pt x 24.09pt>
+<img/info-terminal/design-hover.png, id=228, 73.02281pt x 24.09pt>
 File: img/info-terminal/design-hover.png Graphic file (type png)
 <use img/info-terminal/design-hover.png>
 Package pdftex.def Info: img/info-terminal/design-hover.png  used on input line
@@ -1074,10 +1684,11 @@ Package pdftex.def Info: img/info-terminal/design-hover.png  used on input line
  237. on input line 237.
 Package pdftex.def Info: Requested size: 73.02261pt x 24.08992pt on input line 
 237.
-[41 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/widget-paint-ic
-on.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/align-cente
-r.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/header-desig
-ning.png>]
+ [52 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/widget-paint-i
+con.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/align-cent
+er.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/header-desi
+gning.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/design-h
+over.png>]
 File: img/info-terminal/pages-menu.png Graphic file (type png)
 <use img/info-terminal/pages-menu.png>
 Package pdftex.def Info: img/info-terminal/pages-menu.png  used on input line 2
@@ -1090,11 +1701,10 @@ Package pdftex.def Info: img/info-terminal/pages-menu.png  used on input line 2
 46. on input line 246.
 Package pdftex.def Info: Requested size: 85.0676pt x 21.8315pt on input line 24
 6.
- [42 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/css-class-fiel
-d.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/design-hover
-.png>]
+ [53 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/css-class-fiel
+d.png>]
 
-LaTeX Warning: Reference `fig:component-buttons' on page 43 undefined on input 
+LaTeX Warning: Reference `fig:component-buttons' on page 54 undefined on input 
 line 277.
 
 File: img/info-terminal/header-icon.png Graphic file (type png)
@@ -1121,11 +1731,7 @@ Package pdftex.def Info: img/info-terminal/widget-paint-icon.png  used on input
  line 283. on input line 283.
 Package pdftex.def Info: Requested size: 25.59555pt x 21.07867pt on input line 
 283.
-
-LaTeX Warning: Reference `fig:component-button-designing' on page 43 undefined 
-on input line 283.
-
-[43]
+[54]
 File: img/info-terminal/design-hover.png Graphic file (type png)
 <use img/info-terminal/design-hover.png>
 Package pdftex.def Info: img/info-terminal/design-hover.png  used on input line
@@ -1138,7 +1744,7 @@ Package pdftex.def Info: img/info-terminal/design-hover.png  used on input line
  293. on input line 293.
 Package pdftex.def Info: Requested size: 73.02261pt x 24.08992pt on input line 
 293.
-<img/info-terminal/component-button-designing.png, id=204, 205.5178pt x 349.305
+<img/info-terminal/component-button-designing.png, id=238, 205.5178pt x 349.305
 pt>
 File: img/info-terminal/component-button-designing.png Graphic file (type png)
 <use img/info-terminal/component-button-designing.png>
@@ -1158,32 +1764,26 @@ Package pdftex.def Info: img/info-terminal/widget-gear-icon.png  used on input
 line 309. on input line 309.
 Package pdftex.def Info: Requested size: 28.6068pt x 25.59555pt on input line 3
 09.
- [44 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/component-butt
+File: img/info-terminal/pages-menu.png Graphic file (type png)
+<use img/info-terminal/pages-menu.png>
+Package pdftex.def Info: img/info-terminal/pages-menu.png  used on input line 3
+20. on input line 320.
+Package pdftex.def Info: Requested size: 85.0676pt x 21.8315pt on input line 32
+0.
+File: img/info-terminal/pages-menu.png Graphic file (type png)
+<use img/info-terminal/pages-menu.png>
+Package pdftex.def Info: img/info-terminal/pages-menu.png  used on input line 3
+20. on input line 320.
+Package pdftex.def Info: Requested size: 85.0676pt x 21.8315pt on input line 32
+0.
+ [55 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/component-butt
 on-designing.png>]
-File: img/info-terminal/pages-menu.png Graphic file (type png)
-<use img/info-terminal/pages-menu.png>
-Package pdftex.def Info: img/info-terminal/pages-menu.png  used on input line 3
-20. on input line 320.
-Package pdftex.def Info: Requested size: 85.0676pt x 21.8315pt on input line 32
-0.
-File: img/info-terminal/pages-menu.png Graphic file (type png)
-<use img/info-terminal/pages-menu.png>
-Package pdftex.def Info: img/info-terminal/pages-menu.png  used on input line 3
-20. on input line 320.
-Package pdftex.def Info: Requested size: 85.0676pt x 21.8315pt on input line 32
-0.
-
-Overfull \hbox (98.70079pt too wide) in paragraph at lines 341--342
+Overfull \hbox (86.95091pt too wide) in paragraph at lines 341--342
 []\OT1/cmr/m/n/12 The ex-am-ple call-back func-tion above con-tains the ref-er-
 ence $\OT1/cmtt/m/n/12 '[] . components-[]surface-[]hub'[]$\OT1/cmr/m/n/12 .
  []
 
-
-LaTeX Warning: Reference `fig:panel-buttons' on page 45 undefined on input line
- 344.
-
-[45]
-<img/info-terminal/panel-buttons.png, id=211, 587.19376pt x 277.78781pt>
+<img/info-terminal/panel-buttons.png, id=243, 587.19376pt x 277.78781pt>
 File: img/info-terminal/panel-buttons.png Graphic file (type png)
 <use img/info-terminal/panel-buttons.png>
 Package pdftex.def Info: img/info-terminal/panel-buttons.png  used on input lin
@@ -1203,8 +1803,7 @@ ine 354. on input line 354.
 Package pdftex.def Info: Requested size: 21.8315pt x 21.07867pt on input line 3
 54.
 
-
-LaTeX Warning: Reference `fig:text-layer-widget' on page 46 undefined on input 
+LaTeX Warning: Reference `fig:text-layer-widget' on page 56 undefined on input 
 line 354.
 
 File: img/info-terminal/pencil-icon.png Graphic file (type png)
@@ -1219,13 +1818,8 @@ Package pdftex.def Info: img/info-terminal/pencil-icon.png  used on input line
 354. on input line 354.
 Package pdftex.def Info: Requested size: 27.85397pt x 24.84274pt on input line 
 354.
-
-Overfull \hbox (1.37817pt too wide) in paragraph at lines 359--360
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (37.37854pt too wide) in paragraph at lines 359--360
+[56]
+Overfull \hbox (8.00385pt too wide) in paragraph at lines 359--360
 [][][][][][][][][][][][][][][][][]  
  []
 
@@ -1241,12 +1835,6 @@ Package pdftex.def Info: img/info-terminal/widget-gear-icon.png  used on input
 line 364. on input line 364.
 Package pdftex.def Info: Requested size: 28.6068pt x 25.59555pt on input line 3
 64.
-
-LaTeX Warning: Reference `fig:panel-buttons' on page 46 undefined on input line
- 370.
-
-[46 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/panel-buttons.p
-ng>]
 File: img/info-terminal/pages-menu.png Graphic file (type png)
 <use img/info-terminal/pages-menu.png>
 Package pdftex.def Info: img/info-terminal/pages-menu.png  used on input line 3
@@ -1259,12 +1847,9 @@ Package pdftex.def Info: img/info-terminal/pages-menu.png  used on input line 3
 73. on input line 373.
 Package pdftex.def Info: Requested size: 85.0676pt x 21.8315pt on input line 37
 3.
- [47]
-
-LaTeX Warning: Reference `fig:use-cases-buttons' on page 48 undefined on input 
-line 422.
-
-<img/info-terminal/use-cases-buttons.png, id=219, 411.03563pt x 198.7425pt>
+[57 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/panel-buttons.p
+ng>] [58]
+<img/info-terminal/use-cases-buttons.png, id=254, 411.03563pt x 198.7425pt>
 File: img/info-terminal/use-cases-buttons.png Graphic file (type png)
 <use img/info-terminal/use-cases-buttons.png>
 Package pdftex.def Info: img/info-terminal/use-cases-buttons.png  used on input
@@ -1307,13 +1892,9 @@ Package pdftex.def Info: img/info-terminal/widget-gear-icon.png  used on input
 line 444. on input line 444.
 Package pdftex.def Info: Requested size: 28.6068pt x 25.59555pt on input line 4
 44.
-[48 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/use-cases-butto
-ns.png>] [49]
-
-LaTeX Warning: Reference `fig:breadcrumb' on page 50 undefined on input line 48
-9.
-
-<img/info-terminal/breadcrumb.png, id=228, 244.66406pt x 80.55093pt>
+ [59 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/use-cases-butt
+ons.png>] [60]
+<img/info-terminal/breadcrumb.png, id=262, 244.66406pt x 80.55093pt>
 File: img/info-terminal/breadcrumb.png Graphic file (type png)
 <use img/info-terminal/breadcrumb.png>
 Package pdftex.def Info: img/info-terminal/breadcrumb.png  used on input line 4
@@ -1332,18 +1913,14 @@ Package pdftex.def Info: img/info-terminal/text-layer-icon.png  used on input l
 ine 499. on input line 499.
 Package pdftex.def Info: Requested size: 21.8315pt x 21.07867pt on input line 4
 99.
-[50 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/breadcrumb.png>
-]) [51]
+ [61 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/info-terminal/breadcrumb.png
+>]) [62]
 \openout2 = `contents/9-cctv-live-stream.aux'.
 
 
 (C:/Users/stupid/Desktop/MOS/thesis-latex\contents/9-cctv-live-stream.tex
 Chapter 7.
-
-LaTeX Warning: Reference `fig:premium-blue-ip-camera' on page 52 undefined on i
-nput line 4.
-
-<img/cctv/premium-blue-ip-camera.jpg, id=235, 903.375pt x 677.53125pt>
+<img/cctv/premium-blue-ip-camera.jpg, id=270, 903.375pt x 677.53125pt>
 File: img/cctv/premium-blue-ip-camera.jpg Graphic file (type jpg)
 <use img/cctv/premium-blue-ip-camera.jpg>
 Package pdftex.def Info: img/cctv/premium-blue-ip-camera.jpg  used on input lin
@@ -1355,54 +1932,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-[52
+[63
 
 
 
  <C:/Users/stupid/Desktop/MOS/thesis-latex/img/cctv/premium-blue-ip-camera.jpg>
 ]
-
-LaTeX Warning: Reference `search-ip-cam-exe' on page 53 undefined on input line
- 19.
-
-<img/cctv/search-ip-cam-cropped.png, id=239, 687.31781pt x 444.91219pt>
+<img/cctv/search-ip-cam-cropped.png, id=274, 687.31781pt x 444.91219pt>
 File: img/cctv/search-ip-cam-cropped.png Graphic file (type png)
 <use img/cctv/search-ip-cam-cropped.png>
 Package pdftex.def Info: img/cctv/search-ip-cam-cropped.png  used on input line
  26. on input line 26.
 Package pdftex.def Info: Requested size: 191.10214pt x 123.69879pt on input lin
 e 26.
-<img/cctv/search-ip.png, id=240, 530.73282pt x 349.305pt>
+<img/cctv/search-ip.png, id=275, 530.73282pt x 349.305pt>
 File: img/cctv/search-ip.png Graphic file (type png)
 <use img/cctv/search-ip.png>
 Package pdftex.def Info: img/cctv/search-ip.png  used on input line 29. on inpu
 t line 29.
 Package pdftex.def Info: Requested size: 191.10214pt x 125.77635pt on input lin
 e 29.
-[53 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/cctv/search-ip-cam-cropped.pn
-g> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/cctv/search-ip.png>]
-<img/cctv/web-interface-login.png, id=246, 1028.34187pt x 549.55313pt>
+<img/cctv/web-interface-login.png, id=276, 1028.34187pt x 549.55313pt>
 File: img/cctv/web-interface-login.png Graphic file (type png)
 <use img/cctv/web-interface-login.png>
 Package pdftex.def Info: img/cctv/web-interface-login.png  used on input line 4
 6. on input line 46.
 Package pdftex.def Info: Requested size: 272.99881pt x 145.89084pt on input lin
 e 46.
-<img/cctv/ip-camera-setting-button.png, id=247, 260.47313pt x 197.23688pt>
+ [64 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/cctv/search-ip-cam-cropped.p
+ng> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/cctv/search-ip.png>]
+<img/cctv/ip-camera-setting-button.png, id=282, 260.47313pt x 197.23688pt>
 File: img/cctv/ip-camera-setting-button.png Graphic file (type png)
 <use img/cctv/ip-camera-setting-button.png>
 Package pdftex.def Info: img/cctv/ip-camera-setting-button.png  used on input l
 ine 65. on input line 65.
 Package pdftex.def Info: Requested size: 132.59857pt x 100.40587pt on input lin
 e 65.
-<img/cctv/wlan-search.png, id=248, 383.18156pt x 157.33781pt>
+<img/cctv/wlan-search.png, id=283, 383.18156pt x 157.33781pt>
 File: img/cctv/wlan-search.png Graphic file (type png)
 <use img/cctv/wlan-search.png>
 Package pdftex.def Info: img/cctv/wlan-search.png  used on input line 68. on in
 put line 68.
 Package pdftex.def Info: Requested size: 245.7019pt x 100.88791pt on input line
  68.
-<img/cctv/wlan-credentials.png, id=249, 458.46281pt x 270.25969pt>
+<img/cctv/wlan-credentials.png, id=284, 458.46281pt x 270.25969pt>
 File: img/cctv/wlan-credentials.png Graphic file (type png)
 <use img/cctv/wlan-credentials.png>
 Package pdftex.def Info: img/cctv/wlan-credentials.png  used on input line 75. 
@@ -1410,12 +1983,8 @@ on input line 75.
 Package pdftex.def Info: Requested size: 234.00238pt x 137.94196pt on input lin
 e 75.
 
-
-LaTeX Warning: Reference `sec:cctv-identifying-ip-address' on page 54 undefined
- on input line 79.
-
-[54 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/cctv/web-interface-login.png>
-] [55 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/cctv/ip-camera-setting-butt
+[65 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/cctv/web-interface-login.png>
+] [66 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/cctv/ip-camera-setting-butt
 on.png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/cctv/wlan-search.png> <C:
 /Users/stupid/Desktop/MOS/thesis-latex/img/cctv/wlan-credentials.png>]
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
@@ -1430,14 +1999,14 @@ LaTeX Font Warning: Font shape `OML/cmtt/m/n' undefined
 (Font)              for symbol `textless' on input line 92.
 
 
-Overfull \hbox (31.06848pt too wide) in paragraph at lines 90--95
+Overfull \hbox (1.69379pt too wide) in paragraph at lines 90--95
 \OT1/cmtt/m/n/10 http://\OML/cmtt/m/n/10 <\OT1/cmtt/m/n/10 base[]uri\OML/cmtt/m
 /n/10 >\OT1/cmtt/m/n/10 /cgi-bin/videostream.cgi?user=\OML/cmtt/m/n/10 <\OT1/cm
 tt/m/n/10 username\OML/cmtt/m/n/10 >\OT1/cmtt/m/n/10 &pwd=\OML/cmtt/m/n/10 <\OT
 1/cmtt/m/n/10 password\OML/cmtt/m/n/10 > 
  []
 
-<img/cctv/controller-backtrack.png, id=257, 1027.58907pt x 298.86656pt>
+<img/cctv/controller-backtrack.png, id=291, 1027.58907pt x 298.86656pt>
 File: img/cctv/controller-backtrack.png Graphic file (type png)
 <use img/cctv/controller-backtrack.png>
 Package pdftex.def Info: img/cctv/controller-backtrack.png  used on input line 
@@ -1445,87 +2014,41 @@ Package pdftex.def Info: img/cctv/controller-backtrack.png  used on input line
 Package pdftex.def Info: Requested size: 390.0pt x 113.4291pt on input line 105
 .
 
-LaTeX Warning: Reference `developer-mode-panel-sources' on page 56 undefined on
- input line 108.
-
-[56 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/cctv/controller-backtrack.png
->]
-Overfull \hbox (24.72488pt too wide) in paragraph at lines 110--117
-\OT1/cmtt/m/n/12 http : / / <[]base _ uri >[] /cgi-[]bin / decoder _ control . 
-cgi ? type = <[]type >[] &cmd=$ 
+Overfull \hbox (12.91635pt too wide) in paragraph at lines 108--109
+\OT1/cmr/m/n/12 tent[]frame (ff-server.htm) \OML/cmm/m/it/12 >\OT1/cmr/m/n/12 p
+ush[]content[]frame (live.htm) \OML/cmm/m/it/12 >\OT1/cmr/m/n/12 192.168.0.157 
+nodes
  []
 
-
-LaTeX Warning: Reference `camera-control-commands' on page 57 undefined on inpu
-t line 120.
-
-[57]
-
-LaTeX Warning: Reference `fig:scripts-n-styles-column' on page 58 undefined on 
-input line 155.
-
-<img/cctv/scripts-n-styles-column.png, id=265, 800.23969pt x 459.96844pt>
+[67 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/cctv/controller-backtrack.png
+>] [68]
+<img/cctv/scripts-n-styles-column.png, id=300, 800.23969pt x 459.96844pt>
 File: img/cctv/scripts-n-styles-column.png Graphic file (type png)
 <use img/cctv/scripts-n-styles-column.png>
 Package pdftex.def Info: img/cctv/scripts-n-styles-column.png  used on input li
 ne 161. on input line 161.
 Package pdftex.def Info: Requested size: 272.99881pt x 156.91359pt on input lin
 e 161.
-
-LaTeX Warning: Reference `fig:scripts-n-styles-column' on page 58 undefined on 
-input line 165.
-
-[58]
-<img/cctv/html-view-cctv-form.png, id=269, 550.30594pt x 316.93407pt>
+ [69 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/cctv/scripts-n-styles-column
+.png>]
+<img/cctv/html-view-cctv-form.png, id=304, 550.30594pt x 316.93407pt>
 File: img/cctv/html-view-cctv-form.png Graphic file (type png)
 <use img/cctv/html-view-cctv-form.png>
 Package pdftex.def Info: img/cctv/html-view-cctv-form.png  used on input line 1
 77. on input line 177.
 Package pdftex.def Info: Requested size: 272.99881pt x 157.22862pt on input lin
 e 177.
-
-
-LaTeX Warning: Reference `fig:html-view-cctv-form' on page 59 undefined on inpu
-t line 191.
-
-
-Overfull \hbox (4.54744pt too wide) in paragraph at lines 191--192
-\OT1/cmr/m/n/12 After the form as shown in Fig-ure [] is sub-mit-ted by user, t
-he JavaScript
- []
-
-[59 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/cctv/scripts-n-styles-column.
-png> <C:/Users/stupid/Desktop/MOS/thesis-latex/img/cctv/html-view-cctv-form.png
+ [70 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/cctv/html-view-cctv-form.png
 >]
-<img/cctv/camera-module-html-view.png, id=273, 478.03593pt x 405.76593pt>
+<img/cctv/camera-module-html-view.png, id=308, 478.03593pt x 405.76593pt>
 File: img/cctv/camera-module-html-view.png Graphic file (type png)
 <use img/cctv/camera-module-html-view.png>
 Package pdftex.def Info: img/cctv/camera-module-html-view.png  used on input li
 ne 219. on input line 219.
 Package pdftex.def Info: Requested size: 234.00238pt x 198.62273pt on input lin
 e 219.
-
-
-LaTeX Warning: Reference `fig:camera-module-html-view' on page 60 undefined on 
-input line 222.
-
-[60 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/cctv/camera-module-html-view.
-png>]
-
-LaTeX Warning: Reference `fig:camera-module-html-view' on page 61 undefined on 
-input line 225.
-
-[61]
-
-LaTeX Warning: Reference `sec:cctv-rendering-camera-module' on page 62 undefine
-d on input line 281.
-
-[62] [63]
-
-LaTeX Warning: Reference `sec:cctv-studying-the-codes' on page 64 undefined on 
-input line 329.
-
-) [64]
+ [71 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/cctv/camera-module-html-view
+.png>] [72] [73]) [74] [75]
 \openout2 = `contents/10-integrating-unity-3dmodel.aux'.
 
 
@@ -1537,21 +2060,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-
-Overfull \hbox (29.3747pt too wide) in paragraph at lines 32--32
-[][] 
- []
-
-[65
+[76
 
 
 
 ]
-
-LaTeX Warning: Reference `fig:login-putty' on page 66 undefined on input line 3
-8.
-
-<img/unity/putty.png, id=293, 358.33875pt x 345.54094pt>
+<img/unity/putty.png, id=328, 358.33875pt x 345.54094pt>
 File: img/unity/putty.png Graphic file (type png)
 <use img/unity/putty.png>
 Package pdftex.def Info: img/unity/putty.png  used on input line 44. on input l
@@ -1559,41 +2073,27 @@ ine 44.
 Package pdftex.def Info: Requested size: 195.0pt x 188.03926pt on input line 44
 .
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[66]
-
-LaTeX Warning: Reference `sec:unity-uploading-unity-files' on page 67 undefined
- on input line 66.
-
-[67 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/unity/putty.png>]
-Overfull \hbox (8.68906pt too wide) in paragraph at lines 83--84
-[]\OT1/cmr/m/n/12 Next, re-quired files has to be linked to web page. These fil
-es in-clude \OT1/cmtt/m/n/12 style.css\OT1/cmr/m/n/12 ,
- []
-
-
-Overfull \hbox (61.37878pt too wide) in paragraph at lines 88--89
+[77] [78 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/unity/putty.png>]
+Overfull \hbox (32.00409pt too wide) in paragraph at lines 88--89
 [][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (7.37823pt too wide) in paragraph at lines 89--90
-[][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (41.27637pt too wide) in paragraph at lines 92--93
+Overfull \hbox (58.90118pt too wide) in paragraph at lines 92--93
 []\OT1/cmr/m/n/12 After that, the web player has to in-stan-ti-ated us-ing the 
 \OT1/cmtt/m/n/12 UnityLoader.instantiate()
  []
 
-[68]
+
 Overfull \hbox (12.33978pt too wide) in paragraph at lines 114--114
 []\OT1/cmr/bx/n/17.28 Alternative way to up-load Unity 3D-Model
  []
 
-<img/unity/file-manager-plugin.png, id=304, 700.11563pt x 506.6428pt>
+[79]
+<img/unity/file-manager-plugin.png, id=339, 700.11563pt x 506.6428pt>
 File: img/unity/file-manager-plugin.png Graphic file (type png)
 <use img/unity/file-manager-plugin.png>
 Package pdftex.def Info: img/unity/file-manager-plugin.png  used on input line 
@@ -1601,27 +2101,17 @@ Package pdftex.def Info: img/unity/file-manager-plugin.png  used on input line
 Package pdftex.def Info: Requested size: 253.49762pt x 183.44264pt on input lin
 e 121.
 
-LaTeX Warning: Reference `fig:file-manager-screen' on page 69 undefined on inpu
-t line 124.
+Overfull \hbox (30.26817pt too wide) in paragraph at lines 126--127
+\OT1/cmr/m/n/12 deleted. Here, the root di-rec-tory starts with \OT1/cmtt/m/n/1
+2 /html/.\OT1/cmr/m/n/12 , in-stead of \OT1/cmtt/m/n/12 /var/www/html/.\OT1/cmr
+/m/n/12 .
+ []
 
-[69 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/unity/file-manager-plugin.png
->]
+[80 <C:/Users/stupid/Desktop/MOS/thesis-latex/img/unity/file-manager-plugin.png
+>]) [81] [82
 
-LaTeX Warning: Reference `sec:unity-uploading-unity-files' on page 70 undefined
- on input line 130.
-
-) [70]
-
-! LaTeX Error: \begin{itemize} on input line 140 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 \end{document}
-                   
-? 
-(main.aux (contents/3-background-works.aux) (contents/4-device.aux)
+] (main.aux (contents/list-of-abbreviations.aux)
+(contents/3-background-works.aux) (contents/4-device.aux)
 (contents/5-technologies.aux)
 (contents/6-server-setup-wordpress-installation.aux)
 (contents/7-website-designing.aux)
@@ -1636,33 +2126,29 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 140 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 4934 strings out of 493333
- 84363 string characters out of 3136801
- 165051 words of memory out of 3000000
- 8302 multiletter control sequences out of 15000+200000
- 9484 words of font info for 34 fonts, out of 3000000 for 9000
+ 15946 strings out of 493333
+ 333431 string characters out of 3136801
+ 387954 words of memory out of 3000000
+ 19225 multiletter control sequences out of 15000+200000
+ 536116 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,41p,910b,1700s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
-10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (70 pages, 2071377 bytes).
+ 43i,9n,41p,10409b,1459s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (82 pages, 2089141 bytes).
 PDF statistics:
- 348 PDF objects out of 1000 (max. 8388607)
+ 387 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  331 words of extra memory for PDF output out of 10000 (max. 10000000)
 
