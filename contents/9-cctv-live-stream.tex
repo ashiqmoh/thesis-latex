@@ -32,11 +32,11 @@ The camera came with built-in web application and a bundle of softwares. To get 
 
 \subsection{Login into Web Interface}
 After identifying the IP address of the camera, the web interface of the camera can be accessed by giving in the identified IP address (e.g. 192.168.0.157) from previous step in the web browser's address bar. Login by using the following credentials.
-\begin{itemize}
+\begin{itemize*}
 \item Anwender: admin
 \item Passwort: admin
 \item Modus: Server Push
-\end{itemize}
+\end{itemize*}
 (Note: 'Anwender' and 'Passwort' were not changed as at time of writing this. It may be changed in the future.)
 
 \begin{figure}[ht]
@@ -48,14 +48,14 @@ After identifying the IP address of the camera, the web interface of the camera 
 
 \subsection{WLAN Setup}
 After successful login, the settings of the IP Camera can be accessed by clicking the tool button 'Einstellung' on top right of the page. In the menu list on the left panel, click on the 'WLan'. In there search for the available WLAN network by clicking the 'Suchen' button. After the program finish the search, choose the lab network identified by \ac{ssid} name 'SHLAB01' or 'SHLAB02'. Enter the following details:
-\begin{itemize}
+\begin{itemize*}
 \item WLan wird verwendet: tick
 \item SSID: 'SHLAB01' or 'SHLAB02'
 \item Netzwerk Type: Infra
 \item Sicherer Modus: AEP
 \item Verschl\"usselung: WPA2-PSK
 \item Key: 91054319
-\end{itemize}
+\end{itemize*}
 Hit the 'Update' and 'Speichern' buttons and close the web browser or the tab. (Note: The SSID and password may be changed in the future time.)
 \begin{figure}[ht]
 \caption{IP-Camera WLAN settings}
@@ -92,11 +92,11 @@ Upon successful backtracking, the video footage can be found out to be delivered
 \texttt{\footnotesize{http://\textless base\_uri\textgreater/cgi-bin/videostream.cgi?user=\textless username\textgreater\&pwd=\textless password\textgreater}}
 \newline
 Where,
-\begin{itemize}
+\begin{itemize*}
 \item base\_url: 192.168.0.157 (\emph{as per SearchIPCam.exe search result})
 \item username: admin
 \item password: admin
-\end{itemize}
+\end{itemize*}
 
 \begin{figure}[ht]
 \caption{Developer Mode panel Sources}
@@ -114,13 +114,13 @@ After opening the file, the function can be found either through manual scrollin
 \path{<command>user=<username>&pwd=<password>}
 \newline
 Where,
-\begin{itemize}
+\begin{itemize*}
 \item base\_uri: 192.168.0.157 (\emph{as per SearchIPCam.exe search result})
 \item type: 0
 \item command: \emph{see Table \ref{camera-control-commands}}
 \item username: admin
 \item password: admin
-\end{itemize}
+\end{itemize*}
 
 \begin{table}[ht]
 \centering
@@ -163,11 +163,11 @@ Next, JavaScript code will be added to render the HTML view. Below the WordPress
 
 \subsection{Self-Invoked JavaScript Function}
 First, a self-invoked JavaScript function will be added into 'Scripts' lower column as shown in the Figure~\ref{fig:scripts-n-styles-column}. The self-invoked JavaScript will be executed by the browser as soon as the script has been loaded without being called. This function contains codes to render the HTML view, which will render a HTML form with 3 input text fields:
-\begin{itemize}
+\begin{itemize*}
 \item IP
 \item Username
 \item Password
-\end{itemize}
+\end{itemize*}
 and a submit button The rendered view will then be inserted into HTML page under the \texttt{div} element with class name \texttt{'entry-content'}.
 
 \begin{figure}[ht]
@@ -189,11 +189,11 @@ In addition to that, the function has the callback method to handle when the for
 
 \subsection{Rendering CCTV Footage and Controller} \label{sec:cctv-rendering-camera-module}
 After the form as shown in Figure~\ref{fig:html-view-cctv-form} is submitted by user, the JavaScript will execute the codes to render the CCTV footage view and controller buttons. The rendering of these elements is handled by a function with the name \texttt{CameraModule}. This function is divided into 3 sub-functions:
-\begin{itemize}
+\begin{itemize*}
 \item \texttt{init()}
 \item \texttt{renderStream()}
 \item \texttt{renderController()}
-\end{itemize}
+\end{itemize*}
 
 \begin{lstlisting}
 const CameraModule = {};
@@ -265,18 +265,18 @@ The positioning of the buttons are done through relative and absolute positionin
 The last thing that needed to be added to this web page is the callback functions. Callback functions here refers to what should be done when the controller buttons are clicked using mouse or pressed using touch display such as on smartphone. The controller buttons remotely control the movement of the camera. All the buttons are registered with 4 types of event handlers except for the middle button, which has only 2 event handlers.
 
 The 4 event handlers registered are as follow:
-\begin{itemize}
+\begin{itemize*}
 \item onmousedown - when user click the mouse left button
 \item onmouseup - when user lift the clicking of mouse left button
 \item ontouchstart - when user start the touch of button (touch display)
 \item ontouchend - when user end the touch of button (touch display)
-\end{itemize}
+\end{itemize*}
 
 The 2 event handlers registered for center button are as follow:
-\begin{itemize}
+\begin{itemize*}
 \item onclick - when user click on the button
 \item ontouch - when user touch on the button
-\end{itemize}
+\end{itemize*}
 
 All these event handlers are registered on the respective buttons during the rendering process as discussed in the Section~\ref{sec:cctv-rendering-camera-module}. The registering is done through the JavaScript method \texttt{setAttribute()}. This method register the event handler and the callback function to be invoked as shown in the code example below.
 
@@ -319,11 +319,11 @@ function navi_stop (event) {
 \end{lstlisting}
 
 For both AJAX request, 5 parameters are required, which includes
-\begin{itemize}
+\begin{itemize*}
 \item URL
 \item type
 \item cmd
 \item user
 \item pwd
-\end{itemize}
+\end{itemize*}
 These parameters are the same as been discussed before in the Section~\ref{sec:cctv-studying-the-codes}.

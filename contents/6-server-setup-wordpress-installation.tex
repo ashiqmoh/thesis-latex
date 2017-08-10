@@ -107,10 +107,10 @@ $  sudo apt-get install mysql-server
 \end{lstlisting}
 
 During the installation, root password will be prompted or asked. Here, the password \texttt{d\_XKdEoCwX,4EnO} has been given. Here are the MySQL database credentials for future reference:
-\begin{itemize}
+\begin{itemize*}
 \item username: root
 \item password: d\_XKdEoCwX,4EnO
-\end{itemize}
+\end{itemize*}
 
 \subsection{Step 2: Securing MySQL Database}
 This section will discuss on how to secure the MySQL database server. To get started, the following command has to be entered in the terminal.
@@ -219,14 +219,14 @@ Now the PHP preprocessor can be tested using web browser by entering the URL, \t
 
 \section{WordPress Installation} \label{sec:wordpress-installation}
 After installing Nginx, PHP and MySQL, we can begin with WordPress installation. Please make sure to log in into server-side using PuTTY. Before we can install the WordPress, there are few settings / configurations that have to be done, which includes:
-\begin{itemize}
+\begin{itemize*}
 \item Setting up database table and database user
 \item Configuring Nginx server
 \item Installing additional PHP modules to handle WordPress
 \item Generating secret keys
 \item Downloading latest stable version of WordPress
 \item Configuring WordPress
-\end{itemize}
+\end{itemize*}
 
 \subsection*{Step 1: Creating MySQL Database and User}
 
@@ -417,18 +417,16 @@ After that, we need to provide a few information on the main setup page such as 
 \end{figure}
 
 These are information given on the page shown above:
-\begin{itemize}
+\begin{itemize*}
 \item Site Title: Smart Home Lab
 \item Username: ashiqmoh
 \item Password: oSm0cCCAguIMsalrZd(\#2i5(
 \item Email: ashiqmoh@192.168.0.20
-\end{itemize}
+\end{itemize*}
 
 The installation can be completed by clicking 'Install WordPress' button. Upon installation, the administration side of the website can be accessed by entering following URL:
 \begin{lstlisting}
 http://192.168.0.20/wp-admin
-- or -
-http://web.smarthome.hs-furtwangen.de/wp-admin
 \end{lstlisting}
 
 Provide the username and password stated above and login. The administration side of the website appears as shown in the figure below.
@@ -438,3 +436,26 @@ Provide the username and password stated above and login. The administration sid
 \centering
 \includegraphics[height=7cm,keepaspectratio]{setup/wp-admin-page.png}
 \end{figure}
+
+\section{Routing WordPress to external URL} \label{sec:routing-wordpress-to-external-url}
+The website i.e. WordPress, that has been installed inside one of the virtual machine in the Smart Home Lab physical server, by default can be accessed internally only through the \ac{ip} address \texttt{192.168.0.20}. To make the website accessible from external network through an \ac{url} address, the following steps have to be done.
+
+Go to the general settings of the WordPress by clicking \scalerel*{\includegraphics{setup/settings-button.png}}{B} button from the left navigation menus. Then, click on the \scalerel*{\includegraphics{setup/general-button.png}}{B} button from the sub-menus.
+
+Here, the following fields can be changed from \texttt{192.168.0.20} to the desired \ac{url} address:
+\begin{itemize*}
+\item WordPress Address (URL)
+\item Site Address (URL)
+\end{itemize*}
+
+Both the text fields have been changed to the URL address:
+\begin{lstlisting}
+http://web.smarthome.hs-furtwangen.de
+\end{lstlisting}
+
+By doing this, the website can be accessed externally.
+
+\section{Restrict Website Access to Internal Network}
+The access to the website from external network can be revoked and restrict it to be accessible only from within the lab network by reversing the process described in the Section~\ref{sec:routing-wordpress-to-external-url}. The \emph{WordPress Address (URL)} and \emph{Site Address (URL)} text fields have to be changed to the \ac{ip} address \texttt{192.168.0.20}.
+
+

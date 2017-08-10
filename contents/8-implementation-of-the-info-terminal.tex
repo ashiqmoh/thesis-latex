@@ -3,13 +3,13 @@ The info-terminal has been created by using a \ac{wp} plugin called SmartSlider3
 
 \section{Getting Started}
 First, the SmartSlider3 plugin has to be added and activated in the WordPress. After the activation, the left menu list will receive a new entry 'Smart Slider'. Click it will bring the Smart Slider dashboard interface, where slider can created, modified and deleted. A new slider can be created by clicking the 'New Slider' tile on the dashboard. Here the following details have been given:
-\begin{itemize}
+\begin{itemize*}
 \item Slide name: Info Terminal
 \item Width: 1920 px
 \item Height: 1080 px
 \item Preset: Default
 \item Import Sample Sliders: none
-\end{itemize}
+\end{itemize*}
 \begin{figure}[ht]
 \caption{Creating a new slider}
 \label{creating-a-new-slider}
@@ -24,34 +24,34 @@ There are a few general settings that has to be configured after creating a new 
 
 subsection*{General Settings}
 Under 'General' tab, two settings has be changed, which are:
-\begin{itemize}
+\begin{itemize*}
 \item Align: Center
 \item Main animation properties (Duration): 600 ms
-\end{itemize}
+\end{itemize*}
 
 \subsection*{Size Settings}
 Here, the following attributes has to be changed:
-\begin{itemize}
+\begin{itemize*}
 \item Slide size (Width): 1920 px
 \item Slide size (Height): 968 px
 \item Slider height (Min): 300 px
 \item Slider height (Max): 968 px
 \item Slider width (max): 1920 px
-\end{itemize}
+\end{itemize*}
 
 \subsection*{Autoplay Settings}
 Here, the following attributes has to be changed:
-\begin{itemize}
+\begin{itemize*}
 \item Autoplay (Enabled): True
 \item Autoplay (Interval): 5000 ms
-\end{itemize}
+\end{itemize*}
 
 \subsection*{Arrow Settings}
 Here, the following attributes has to be set:
-\begin{itemize}
+\begin{itemize*}
 \item Previous (Color): 999999FF
 \item Style: Static
-\end{itemize}
+\end{itemize*}
 
 \subsection*{Autoplay Icon Settings}
 By default, the autoplay mode in the slider is turned off. This mode has to be turned on as shown in Figure~\ref{autoplay-icon-on} and the rest the of settings are left to default settings.
@@ -64,11 +64,11 @@ By default, the autoplay mode in the slider is turned off. This mode has to be t
 
 \subsection*{Thumbnails Setting}
 After enabling the Thumbnails, which by default is turned off, the following attributes have to be set.
-\begin{itemize}
+\begin{itemize*}
 \item Thumbnail size (Width): 150 px
 \item Thumbnail size (Height): 100 px
 \item Position: Outer, bottom
-\end{itemize}
+\end{itemize*}
 
 \subsection*{Publish Setting}
 Under the 'Publish' tab, the shortcode of the created slider has to be taken note (refer Figure~\ref{slider-shortcode}). In this case, the short code is \texttt{\[smartslider3 slider=1\]}. This code will be used to insert the slider into the WordPress web page as discussed in the Section~\ref{inserting-slider-into-web-page}.
@@ -92,10 +92,10 @@ After setting the slider setting, slide can be created and set. The slider can b
 \end{figure}
 
 Next, after the slide has been created, the following Background and Settings has to be given as shown in the Figure~\ref{slide-general-settings}. Through the 'Background' tab as shown in the Figure~\ref{slide-background}, these attributes has to be set to the following:
-\begin{itemize}
+\begin{itemize*}
 \item Background: Color
 \item Color: FAFAFAFF
-\end{itemize}
+\end{itemize*}
 Where else, through the 'Settings' tab, the name of the current slide along with the respective thumbnail can be inserted.
 \begin{figure}[ht]
 \caption{Slide settings}
@@ -131,13 +131,13 @@ Through the first tab with icon \scalerel*{\includegraphics{info-terminal/pencil
 \end{lstlisting}
 
 Through the third tab with icon \scalerel*{\includegraphics{info-terminal/widget-gear-icon.png}}{B}, following has to be set:
-\begin{itemize}
+\begin{itemize*}
 \item Align: \scalerel*{\includegraphics{info-terminal/home-button-align.png}}{B}
 \item Position X: 25 px
 \item Position Y: 25 px
 \item Width: Auto
 \item CSS class: home-button cursor-pointer
-\end{itemize}
+\end{itemize*}
 
 Next, through the \scalerel*{\includegraphics{info-terminal/pages-menu.png}}{B} menu, 'Edit' option has to clicked to open the 'Info Terminal' page, which has been created in the Section~\ref{inserting-slider-into-web-page}.
 
@@ -203,14 +203,14 @@ An header element has to be added to slide as discussed in the Section~\ref{sec:
 
 \subsection*{Step 2: Header Designing}
 After adding a appropriate text, the header element has to be designed clicking the \scalerel*{\includegraphics{info-terminal/widget-paint-icon.png}}{B}. Clicking this, will show the CSS designing panel as shown in the Figure~\ref{fig:header-designing}. Here, the following design settings have to changed:
-\begin{itemize}
+\begin{itemize*}
 \item Color: FAFAFAFF
 \item Line height: 5.75
 \item Text align: \scalerel*{\includegraphics{info-terminal/align-center.png}}{B}
 \item Background color: D85935FF (eg. for 'Components' button)
 \item Border: 1 px Solid BB4A28FF (eg. for 'Components' button)
 \item Border radius: 5 px
-\end{itemize}
+\end{itemize*}
 
 \begin{figure}[ht]
 \caption{Designing header element}
@@ -235,12 +235,12 @@ The \texttt{card-4} is constant for all overview button. The \texttt{living-room
 \end{figure}
 
 Next by toggling to \emph{Hover} section by clicking \scalerel*{\includegraphics{info-terminal/design-hover.png}}{B} icon, the following entries have to be given:
-\begin{itemize}
+\begin{itemize*}
 \item Background color: BB4A28FF
 \item Padding: 0 0 0 0 px
 \item Border: 1 px Solid BB4A28FF
 \item Border radius: 5 px
-\end{itemize}
+\end{itemize*}
 
 \subsection*{Step 3: Adding CSS}
 Next, click the \scalerel*{\includegraphics{info-terminal/pages-menu.png}}{B}. Then edit the 'Info-Terminal' page. Under the 'Style' tab in the 'Scripts n Styles' section, few lines of CSS codes have to be added for additional designing of the overview button as listed below:
@@ -281,22 +281,22 @@ Header element can be added to the slider by clicking the \scalerel*{\includegra
 
 \subsection*{Step 2: Designing the header element}
 Next, the header element has to be designed. To proceed with designing, click on the \scalerel*{\includegraphics{info-terminal/widget-paint-icon.png}}{B}. In this section of the widget as shown in the Figure~\ref{fig:component-button-designing}, following entries have to be changed:
-\begin{itemize}
+\begin{itemize*}
 \item Color: 414141FF
 \item Line height: 1.5
 \item Background color: CED3D5FF
 \item Padding: 5 0 5 0 px
 \item Border: 1 px solid 81898DFF
 \item Border radius: 5px
-\end{itemize}
+\end{itemize*}
 
 Next by toggling to \emph{Hover} section by clicking \scalerel*{\includegraphics{info-terminal/design-hover.png}}{B} icon, the following entries have to be given:
-\begin{itemize}
+\begin{itemize*}
 \item Background color: BDC1C3FF
 \item Padding: 5 0 5 0 px
 \item Border: 1 px Solid 81898DFF
 \item Border radius: 5 px
-\end{itemize}
+\end{itemize*}
 
 \begin{figure}[ht]
 \caption{Designing component buttons}
@@ -307,12 +307,12 @@ Next by toggling to \emph{Hover} section by clicking \scalerel*{\includegraphics
 
 \subsection*{Step 3: Setting Header Element}
 The header element has to be set with following settings. The setting panel of the header element can be opened by clicking the \scalerel*{\includegraphics{info-terminal/widget-gear-icon.png}}{B}. Here, the following entries has to be set:
-\begin{itemize}
+\begin{itemize*}
 \item Align:
 \item Width: 1000 px
 \item Height: auto
 \item CSS claa: card-1 components-surface-hub
-\end{itemize}
+\end{itemize*}
 
 CSS Class with text \texttt{card-1 components-surface-hub} is very important. The \texttt{card-1} is the reference to CSS styling which will be discussed in the next section. Whereby \texttt{components-surface-hub} is the reference for the JavaScript callback function. In this case, it refers to the destination slide which contains the component Surface Hub.
 
@@ -362,10 +362,10 @@ In order to add or create a panel button, a text layer has to be added by clicki
 
 \subsection*{Step 2: Setting of Text Layer}
 Setting of the text layer can be accessed by clicking the \scalerel*{\includegraphics{info-terminal/widget-gear-icon.png}}{B}. Here, only two settings has to be changed as listed below:
-\begin{itemize}
+\begin{itemize*}
 \item Width: 200 px
 \item Height: 200 px
-\end{itemize}
+\end{itemize*}
 
 Apart from the width and height, the positioning of the button in X and Y direction has to be set accordingly as can be seen in Figure~\ref{fig:panel-buttons}.
 
