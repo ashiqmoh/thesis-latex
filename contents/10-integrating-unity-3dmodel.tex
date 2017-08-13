@@ -1,6 +1,6 @@
 \chapter{Integrating Unity 3D-Model} \label{sec:unity-integrating-unity-3d-model}
 
-The Smart Home Lab website has been integrated with Unity 3D-Model. Unity is a game engine used to develop computer games and console games for cross-platform devices. With Unity game engine, \ac{2d} and \ac{3d} Models can be built through the provided \ac{api}. The created 3D-Model can be viewed on web browsers through Unity Web Player plugins.
+The Smart Home Lab website has been integrated with Unity 3D-Model \cite{DeanTakahashi.2014}. Unity is a game engine used to develop computer games and console games for cross-platform devices. With Unity game engine, \ac{2d} and \ac{3d} Models can be built through the provided \ac{api}. The created 3D-Model can be viewed on web browsers through Unity Web Player plugins \cite{Unity3D.2017}.
 
 By default, WordPress doesn't have built-in Unity Web Player nor provide any support to view the Unity 3D-Models. Hence, integrating the 3D-Model has to be done manually. This chapter will outline and explain on how to integrate the 3D-Model into a WordPress powered website. Integrating Unity 3D-Model involves 2 steps. First, uploading the Unity files to resource folder. Second, developing a web page to render the 3D-Model.
 
@@ -129,4 +129,4 @@ Uploading file through 'File Manager' plugin can be done simply by drag-n-drop m
 
 Even though this method is much simpler than the method discussed in the Section~\ref{sec:unity-uploading-unity-files}, a problem has occurred. There is a file with size of almost 12 MB in the \texttt{TemplateData} directory. This file are not uploading to the server by using the 'File Manager' plugin. The WordPress deliver a \texttt{http-error}. After research and studies, no working solution has been found on how to enable large file upload of more than 10 MB.
 
-This is taking into consideration after increasing the file upload size limit both in the \ac{nginx} web server configuration and \ac{php} application server configuration. Solving the \texttt{http-error} will enable the file to uploaded or upgraded easily in the future by using this plugin, without having to login in to server backend and uploading file using PuTTY or \ac{sftp}.
+This is taking into consideration after increasing the file upload size limit both in the \ac{nginx} web server configuration and \ac{php} application server configuration \cite{JGrey.2014}. Solving the \texttt{http-error} will enable the file to uploaded or upgraded easily in the future by using this plugin, without having to login in to server backend and uploading file using PuTTY or \ac{sftp}.

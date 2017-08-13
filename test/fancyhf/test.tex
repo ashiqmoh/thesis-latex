@@ -1,0 +1,27 @@
+\documentclass[twoside]{report}
+
+% Random text
+\usepackage{lipsum}
+
+% Page style
+\usepackage{fancyhdr}
+
+% Defining the new page style
+\pagestyle{fancy}
+\fancypagestyle{MyStyle}{%
+    \fancyhead{} %Clean headers
+    \fancyhead[RO]{\leftmark}
+    \fancyhead[LE]{\leftmark}
+    \renewcommand{\chaptermark}[1]{\markboth{\thechapter. {\slshape{##1}}}{}}
+}
+
+\begin{document}
+
+\pagestyle{MyStyle}
+\chapter{First chapter title}
+\lipsum
+
+\chapter{Second chapter title}
+\lipsum
+
+\end{document}

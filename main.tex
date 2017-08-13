@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{report}
+\documentclass[12pt,a4paper,twoside,openright]{report}
 
 \include{contents/imports}
 
@@ -7,13 +7,21 @@
 \include{contents/list-of-abbreviations}
 
 \begin{document}
+\pagestyle{empty}
 \bookmark[page=1,level=1]{Title Page}
 \input{contents/title-page}
 
 \pagenumbering{Roman}
 
+\pagestyle{plain}
+
+\bookmark[page=2,level=1]{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\input{contents/abstract}
+
 % check page number before finalizing !!!!!!!!!!!!!
-\bookmark[page=5,level=1]{Acknowledgement}
+%\bookmark[page=5,level=1]{Acknowledgement}
+\addcontentsline{toc}{chapter}{Acknowledgement}
 \input{contents/acknowledgement}
 
 \tableofcontents
@@ -30,9 +38,11 @@
 \printacronyms[include-classes=abbrev,name=List of Abbreviations]
 \newpage
 
+\pagestyle{myStyle}
 \pagenumbering{arabic}
 \include{contents/1-introduction}
 \include{contents/3-background-works}
+\include{contents/4-approach}
 \include{contents/5-technologies}
 \include{contents/6-server-setup-wordpress-installation}
 \include{contents/7-website-designing}

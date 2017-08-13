@@ -1,7 +1,7 @@
 \chapter{CCTV Live Stream}
 
 \section{Introduction}
-Another task in this thesis work is to stream live \ac{cctv} footage on the website. The CCTV used in thesis work is called PremiumBlue IP Camera as shown in the Figure~\ref{fig:premium-blue-ip-camera}. This camera is built with 720p resolutions, can be rotated and tilted remotely and monitored wirelessly. It is suitable to be used in homes, offices and labs. The user interface of the camera, which is used to view the footage and control the camera itself, can be accessed through the web browser. Additionally, it has a SD-card slot, which enables the storing of the footages and replay of them in the later time.
+Another task in this thesis work is to stream live \ac{cctv} footage on the website. The CCTV used in thesis work is called PremiumBlue IP Camera \cite{PremiumBlue.2013} \cite{PremiumBlue.2013b} as shown in the Figure~\ref{fig:premium-blue-ip-camera}. This camera is built with 720p resolutions, can be rotated and tilted remotely and monitored wirelessly. It is suitable to be used in homes, offices and labs. The user interface of the camera, which is used to view the footage and control the camera itself, can be accessed through the web browser. Additionally, it has a SD-card slot, which enables the storing of the footages and replay of them in the later time.
 
 \begin{figure}[ht]
 \caption{PremiumBlue IP-Camera}
@@ -14,7 +14,7 @@ This chapter will discuss on how to configure the above mentioned IP-Camera; ext
 
 \section{Pre-Configuration}
 \subsection{Identifying IP Address}\label{sec:cctv-identifying-ip-address}
-\emph{The steps discussed here is part of configuration steps from the camera vendor, which can be found in the following documentation}\footnote{https://www.pollin.de/shop/downloads/D722622B.PDF}.\\
+\emph{The steps discussed here is part of configuration steps from the camera vendor, which can be found in the following documentation}\cite{PremiumBlue.2013c}.\\
 
 The camera came with built-in web application and a bundle of softwares. To get started, the IP-Camera need to be connected to power supply and LAN-network. Next, we need to identify the \ac{ip} of the camera by using the software came bundled with the camera called \emph{SearchIPCam.exe} (\emph{see} Figure \ref{search-ip-cam-exe}). This application can also be downloaded from the vendor's website\footnote{https://www.pollin.de/shop/downloads/D722622S.ZIP}. Run the program and hit the 'Refresh' button to obtain the IP address of the camera.
 
@@ -152,7 +152,7 @@ In this section, the process of designing the web page to stream live footage of
 The web page is created by using WordPress built-in functionality. To create a new page, go to 'Page' section from the left side menu and click on 'Add New' sub-menu. Here, the page name is given as 'Live Stream' and then the page is published by clicking 'Publish' button. All the other settings are left in the default mode.
 
 \subsection{Scripts n Styles Plugin}
-Next, JavaScript code will be added to render the HTML view. Below the WordPress text editor column, the 'Scripts n Styles' column can be found (\emph{refer} Figure~\ref{fig:scripts-n-styles-column}). This column will be added to every created page because of the installation of a WordPress plugin by the same name, 'Scripts n Styles'. To find out about the installed and activated plugins, explore the Plugins page. To learn more about this plugin, refer to URL linked in given footnote\footnote{https://de.wordpress.org/plugins/scripts-n-styles/}. Basically, this plugin enable the WordPress user to add custom CSS and JavaScript codes globally or to individual pages. Custom CSS and JavaScript is added into the page created to render the IP-Camera recording and the controller buttons.
+Next, JavaScript \cite{Rauschmayer.2014} code will be added to render the HTML view. Below the WordPress text editor column, the 'Scripts n Styles' column can be found (\emph{refer} Figure~\ref{fig:scripts-n-styles-column}). This column will be added to every created page because of the installation of a WordPress plugin by the same name, 'Scripts n Styles'. To find out about the installed and activated plugins, explore the Plugins page. To learn more about this plugin, refer to URL linked in given footnote\footnote{https://de.wordpress.org/plugins/scripts-n-styles/}. Basically, this plugin enable the WordPress user to add custom CSS and JavaScript codes globally or to individual pages. Custom CSS and JavaScript is added into the page created to render the IP-Camera recording and the controller buttons.
 
 \begin{figure}[ht]
 \caption{Scripts n Styles Column}

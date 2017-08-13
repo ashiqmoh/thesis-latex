@@ -1,28 +1,53 @@
 % makes latex quickly check the document, runs faster and saves time
 %\syntaxonly
 
-\linespread{1.15}
+
+\geometry{
+	portrait,
+	bindingoffset=1.5cm,
+	inner = 2.5cm,
+	outer = 2.5cm,
+	top = 3cm,
+	bottom = 2cm,
+}
+
+
+\pagestyle{fancy}
+\fancypagestyle{myStyle}{
+    \fancyhf{} % clear all header and footer fields
+    \fancyhead[LE,RO]{\leftmark}
+    \fancyhead[RE,LO]{\thepage}
+    \renewcommand{\chaptermark}[1]{\markboth{\thechapter. {\slshape{##1}}}{}}
+}
+
+
+\linespread{1.5}
+
 
 \graphicspath{ {img/} }
 
+
 \hypersetup{%
-	bookmarks=true, % show bookmarks
-	unicode=true, % non-Latin characters
-	pdftitle={Master Thesis}, % pdf title
-	pdfsubject={Creating a website with Info-Terminal and Live CCTV Stream for the Smart Home%
+	bookmarks = true, % show bookmarks
+	unicode = true, % non-Latin characters
+	pdftitle = {Master Thesis}, % pdf title
+	pdfsubject = {Creating a website with Info-Terminal and Live CCTV Stream for the Smart Home%
 		Laboratory at Hochschule Furtwangen University},%
-	pdfauthor={Ashiq Mohamed Akbar Ali},%
-	pdfkeywords={master}{thesis}{website}{info}{terminal}{live}{cctv}{stream}{smart}{home}%
+	pdfauthor = {Ashiq Mohamed Akbar Ali},%
+	pdfkeywords = {master}{thesis}{website}{info}{terminal}{live}{cctv}{stream}{smart}{home}%
 		{laboratory}{ashiq}{mohamed}{akbar}{ali}{hochschule}{furtwangen}{university}{hfu}{ss}%
 		{2017},%
-	pdfcreator={pdflatex},%
-	pdfproducer={LaTeX},%
-	colorlinks=true, % true:colored links; false:boxed links
-	linkcolor=black, % links font-color
-	urlcolor=black, % url font-color
-	linkbordercolor=white, %links border-color
-	urlbordercolor=white % url border-color
+	pdfcreator = {pdflatex},%
+	pdfproducer = {LaTeX},%
+	colorlinks = true, % true:colored links; false:boxed links
+	linkcolor = black, % links font-color
+	urlcolor = black, % url font-color
+	linkbordercolor = white, %links border-color
+	urlbordercolor = white, % url border-color
+	citecolor = black,
+	citebordercolor = white
 }
+
 
 %--- lst listing / enviroments for code setup ---%
 \lstset{
@@ -35,8 +60,10 @@
 	frame=l
 }
 
+
 %--- acronyms / list of abbreviations setup ---%
 \acsetup{first-style=short}
+
 
 %--- document information ---%
 \title{Master Thesis}
