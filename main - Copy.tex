@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper,twoside,openright]{report}
+\documentclass[12pt,a4paper,twoside,openright]{book}
 
 \include{contents/imports}
 
@@ -7,44 +7,38 @@
 \include{contents/list-of-abbreviations}
 
 \begin{document}
+\frontmatter
 
+\pagestyle{empty}
 \bookmark[page=1,level=1]{Title Page}
 \input{contents/title-page}
 
-\pagenumbering{Roman}
+%\pagenumbering{Roman}
 
 \pagestyle{plain}
 
-
-\addcontentsline{toc}{chapter}{Abstract}
-\input{contents/abstract}
-
-
-
-\input{contents/acknowledgement}
-\addcontentsline{toc}{chapter}{Acknowledgement}
+\input{contents/abstract-copy}
+\input{contents/acknowledgement-copy}
 
 \tableofcontents
 
-
+\cleardoublepage % so that page number reference is correct
+\addcontentsline{toc}{chapter}{\listfigurename}
 \listoffigures
-\addcontentsline{toc}{chapter}{List of Figures}
-%\newpage
 
 
+\cleardoublepage
+\addcontentsline{toc}{chapter}{\listtablename}
 \listoftables
-\addcontentsline{toc}{chapter}{List of Tables}
-%\newpage
 
 
-\chapter*{List of Abbreviations}
+\chapter{List of Abbreviations}
 \printacronyms[include-classes=abbrev,name=]
-\addcontentsline{toc}{chapter}{List of Abbreviations}
-%\newpage
 
 
+\mainmatter
 \pagestyle{myStyle}
-\pagenumbering{arabic}
+%\pagenumbering{arabic}
 \input{contents/1-introduction}
 \input{contents/3-background-works}
 \input{contents/4-approach}
@@ -57,13 +51,14 @@
 \input{contents/11-blogging-with-wordpress}
 \input{contents/12-conclusion}
 
+\backmatter
 %--- insert bibliography ---%
-\newpage
+%\newpage
 \addcontentsline{toc}{chapter}{Bibliography}
 \bibliographystyle{unsrt}
 \bibliography{bibitems}
 
-\include{contents/statutory-declaration}
+\include{contents/statutory-declaration-copy}
 
 \pagestyle{plain}
 \pagenumbering{Alph}

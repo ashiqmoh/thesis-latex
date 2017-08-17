@@ -48,16 +48,24 @@
 	citebordercolor = white
 }
 
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
 
 %--- lst listing / enviroments for code setup ---%
 \lstset{
-	aboveskip=3mm,
-	belowskip=3mm,
-	basicstyle=\footnotesize,
-	breaklines=true,
-	tabsize=3,
-	breakatwhitespace=true,
-	frame=l
+	aboveskip=3mm, % top margin
+	belowskip=3mm, % bottom margin
+	basicstyle=\footnotesize, % the code font size
+	breaklines=true, % sets automatic line breaking
+	tabsize=3, % sets default tab size
+	breakatwhitespace=true, % whether automatic break should happen at white space
+	frame=single, % add frame around the code
+	numbers = left, % where to put the line numbers; possible values are (none, left, right)
+	numbersep = 5pt, % how far line number from codes
+	numberstyle = \tiny\color{mygray}, % number color gray
+	rulecolor = \color{mygray} % frame color gray
 }
 
 

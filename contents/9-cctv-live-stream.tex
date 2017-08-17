@@ -13,7 +13,7 @@ Another task in this thesis work is to stream live \ac{cctv} footage on the webs
 This chapter will discuss on how to configure the above mentioned IP-Camera; extracting the information to get the camera footage and controlling the camera; and designing the web page in the WordPress.
 
 \section{Pre-Configuration}
-\subsection{Identifying IP Address}\label{sec:cctv-identifying-ip-address}
+\subsection*{Identifying IP Address}\label{sec:cctv-identifying-ip-address}
 \emph{The steps discussed here is part of configuration steps from the camera vendor, which can be found in the following documentation}\cite{PremiumBlue.2013c}.\\
 
 The camera came with built-in web application and a bundle of softwares. To get started, the IP-Camera need to be connected to power supply and LAN-network. Next, we need to identify the \ac{ip} of the camera by using the software came bundled with the camera called \emph{SearchIPCam.exe} (\emph{see} Figure \ref{search-ip-cam-exe}). This application can also be downloaded from the vendor's website\footnote{https://www.pollin.de/shop/downloads/D722622S.ZIP}. Run the program and hit the 'Refresh' button to obtain the IP address of the camera.
@@ -30,7 +30,7 @@ The camera came with built-in web application and a bundle of softwares. To get 
 	\end{subfigure}
 \end{figure}
 
-\subsection{Login into Web Interface}
+\subsection*{Login into Web Interface}
 After identifying the IP address of the camera, the web interface of the camera can be accessed by giving in the identified IP address (e.g. 192.168.0.157) from previous step in the web browser's address bar. Login by using the following credentials.
 \begin{itemize*}
 \item Anwender: admin
@@ -46,7 +46,7 @@ After identifying the IP address of the camera, the web interface of the camera 
 \includegraphics[width=.7\linewidth,keepaspectratio]{cctv/web-interface-login.png}
 \end{figure}
 
-\subsection{WLAN Setup}
+\subsection*{WLAN Setup}
 After successful login, the settings of the IP Camera can be accessed by clicking the tool button 'Einstellung' on top right of the page. In the menu list on the left panel, click on the 'WLan'. In there search for the available WLAN network by clicking the 'Suchen' button. After the program finish the search, choose the lab network identified by \ac{ssid} name 'SHLAB01' or 'SHLAB02'. Enter the following details:
 \begin{itemize*}
 \item WLan wird verwendet: tick
@@ -75,14 +75,14 @@ Hit the 'Update' and 'Speichern' buttons and close the web browser or the tab. (
 \includegraphics[width=.6\textwidth]{cctv/wlan-credentials.png}
 \end{figure}
 
-\subsection{Restart}
+\subsection*{Restart}
 Now, the IP-Camera has to be restarted without connecting it to network via \ac{lan} cable. Since the wireless network credentials have been entered in the previous step, it will connect to lab network, 'SHLAB02' automatically upon start-up and will have a different IP address. Run the \emph{SearchIPCam.exe} program again as discussed in the Section~\ref{sec:cctv-identifying-ip-address} and login into the web interface using the new IP address. The IP address will be renewed when the IP-Camera is connected through wireless LAN.
 
 \section{Identifying the cgi-bin Module}
-\subsection{Introduction}
+\subsection*{Introduction}
 In order to stream the live footage or recording of the IP-Camera in the Smart Home Lab website, the URI address and additional query parameters are required in order to access the IP-Camera recording. These parameters are not available openly but can be obtained by studying the HTML and JavaScript codes of the web interface of the camera. The studying of the web interface codes may take time up to 1 to 2 days depending on the level of web programming knowledge. The URI where the footage of the camera can be obtained is identified with relative path \emph{cgi-bin}.
 
-\subsection{Studying the Codes}\label{sec:cctv-studying-the-codes}
+\subsection*{Studying the Codes}\label{sec:cctv-studying-the-codes}
 The codes can be studied by using the \emph{Developer Mode} of any web browser. In this thesis, the Chrome web browser has been used. The developer mode of Chrome web browser can be opened either through (Right click {\textgreater} Inspect) option or keyboard shortcut key (Ctrl-Shift-I).
 
 The the HTML and JavaScript codes of the IP-Camera web interface, however, can't be studied easily because the are a lot of files which are embedded upon one another and referred to and from one file to another. The method used to extract the required \ac{uri} and query parameters are through backtracking the video footage and the callback functions of the controller buttons.
@@ -145,13 +145,13 @@ Command & Camera Movement \\
 \end{table}
 
 \section{Designing the Web Page}\label{sec:cctv-designing-the-web-page}
-\subsection{Introduction}
+\subsection*{Introduction}
 In this section, the process of designing the web page to stream live footage of CCTV or IP-Camera will be discussed. In order to design this page, WordPress, CSS, JavaScript and jQuery knowledge will be required. In general, the development involves styling with CSS. Additionally, JavaScript will be used to render the HTML view, handle user actions and execute \ac{ajax} request.
 
-\subsection{Creating the Web Page}
+\subsection*{Creating the Web Page}
 The web page is created by using WordPress built-in functionality. To create a new page, go to 'Page' section from the left side menu and click on 'Add New' sub-menu. Here, the page name is given as 'Live Stream' and then the page is published by clicking 'Publish' button. All the other settings are left in the default mode.
 
-\subsection{Scripts n Styles Plugin}
+\subsection*{Scripts n Styles Plugin}
 Next, JavaScript \cite{Rauschmayer.2014} code will be added to render the HTML view. Below the WordPress text editor column, the 'Scripts n Styles' column can be found (\emph{refer} Figure~\ref{fig:scripts-n-styles-column}). This column will be added to every created page because of the installation of a WordPress plugin by the same name, 'Scripts n Styles'. To find out about the installed and activated plugins, explore the Plugins page. To learn more about this plugin, refer to URL linked in given footnote\footnote{https://de.wordpress.org/plugins/scripts-n-styles/}. Basically, this plugin enable the WordPress user to add custom CSS and JavaScript codes globally or to individual pages. Custom CSS and JavaScript is added into the page created to render the IP-Camera recording and the controller buttons.
 
 \begin{figure}[ht]
@@ -161,7 +161,7 @@ Next, JavaScript \cite{Rauschmayer.2014} code will be added to render the HTML v
 \includegraphics[width=.7\linewidth,keepaspectratio]{cctv/scripts-n-styles-column.png}
 \end{figure}
 
-\subsection{Self-Invoked JavaScript Function}
+\subsection*{Self-Invoked JavaScript Function}
 First, a self-invoked JavaScript function will be added into 'Scripts' lower column as shown in the Figure~\ref{fig:scripts-n-styles-column}. The self-invoked JavaScript will be executed by the browser as soon as the script has been loaded without being called. This function contains codes to render the HTML view, which will render a HTML form with 3 input text fields:
 \begin{itemize*}
 \item IP
@@ -187,7 +187,7 @@ In addition to that, the function has the callback method to handle when the for
 })();
 \end{lstlisting}
 
-\subsection{Rendering CCTV Footage and Controller} \label{sec:cctv-rendering-camera-module}
+\subsection*{Rendering CCTV Footage and Controller} \label{sec:cctv-rendering-camera-module}
 After the form as shown in Figure~\ref{fig:html-view-cctv-form} is submitted by user, the JavaScript will execute the codes to render the CCTV footage view and controller buttons. The rendering of these elements is handled by a function with the name \texttt{CameraModule}. This function is divided into 3 sub-functions:
 \begin{itemize*}
 \item \texttt{init()}
@@ -221,7 +221,7 @@ CameraModule.renderController = function () {
 
 These sub-functions contain codes to execute what their name suggest. The \texttt{init()} has codes to initialize the HTML view rendering process by clearing the current view and setting the text fields input values from the HTML form in the functional scope variables. The \texttt{renderStream()} function render the camera footage stream, and the \texttt{renderController()} renders the controller buttons into the view. The rendered HTML view will appears as shown in the Figure~\ref{fig:camera-module-html-view}.
 
-\subsection{Styling and Positioning the Buttons}
+\subsection*{Styling and Positioning the Buttons}
 The controller buttons that are rendered through JavaScript alone do not appear as shown in Figure~\ref{fig:camera-module-html-view}. In order to make them appear good and positioned in a group as such, some CSS styling and positioning have been done. The CSS codes used for this purpose can be viewed from 'Styles' section of the 'Scripts n Styles' column.
 
 The positioning of the buttons are done through relative and absolute positioning mechanism of the CSS\footnote{https://www.mediaevent.de/tutorial/css-position-absolute-relative.html}. In addition to that, the buttons has to be given the position as where it should find itself within the button container. The direction of arrow, as to which direction it should be pointing is done through CSS-Transform rotate effect.
@@ -261,7 +261,7 @@ The positioning of the buttons are done through relative and absolute positionin
 ... /* arrow positioning of other buttons */
 \end{lstlisting}
 
-\subsection{Callback Functions}
+\subsection*{Callback Functions}
 The last thing that needed to be added to this web page is the callback functions. Callback functions here refers to what should be done when the controller buttons are clicked using mouse or pressed using touch display such as on smartphone. The controller buttons remotely control the movement of the camera. All the buttons are registered with 4 types of event handlers except for the middle button, which has only 2 event handlers.
 
 The 4 event handlers registered are as follow:

@@ -54,24 +54,24 @@ After successfully connecting, the passphrase, \texttt{BSY2qjtu\$\#} that have b
 \section{Nginx HTTP Server Installation} \label{sec:nginx-http-server-installation}
 Nginx is a powerful, versatile and efficient HTTP or web server. Nginx web server can be installed in Ubuntu using the \texttt{apt} package.
 
-\subsection{Step 1: Installing Nginx}
+\subsection*{Step 1: Installing Nginx}
 The following has been used to install Nginx.
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $  sudo apt-get update
 $  sudo apt-get install nginx
 \end{lstlisting}
 
-\subsection{Step 2: Enabling Nginx}
+\subsection*{Step 2: Enabling Nginx}
 The Ngnx, by default, will be configured and started running automatically after the installation. If the server runs firewall, the Nginx should be enabled manually. The Nginx will however register itself with the server firewall, which is \texttt{ufw} upon installation. The following command has to be ran in the terminal to start the Nginx manually.
 
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $  sudo ufw allow 'Nginx HTTP'
 \end{lstlisting}
 
-\subsection{Step 3: Checking Nginx Status}
+\subsection*{Step 3: Checking Nginx Status}
 The status of Nginx HTTP server can be checked by using the following command.
 
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $  sudo ufw status
 \end{lstlisting}
 
@@ -100,9 +100,9 @@ The output on the second and third column which are 'ALLOW' and 'Anywhere' respe
 \section{MySQL Database Installation} \label{sec:mysql-database-installation}
 After installing Nginx HTTP server, database server has been installed to manage the storing of the website content. In this project MySQL database server has been used.
 
-\subsection{Step 1: Installing MySQL}
+\subsection*{Step 1: Installing MySQL}
 The following command has to be entered to install MySQL database on the Ubuntu server. 
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $  sudo apt-get install mysql-server
 \end{lstlisting}
 
@@ -112,15 +112,15 @@ During the installation, root password will be prompted or asked. Here, the pass
 \item password: d\_XKdEoCwX,4EnO
 \end{itemize*}
 
-\subsection{Step 2: Securing MySQL Database}
+\subsection*{Step 2: Securing MySQL Database}
 This section will discuss on how to secure the MySQL database server. To get started, the following command has to be entered in the terminal.
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $  sudo mysql_secure_installation
 \end{lstlisting}
 
 Running this command will take us through security setup of MySQL database server which consist of a series of questions. Here are the three questions and the settings that have been given for the future reference. The rest of settings have been given 'yes' as the answers.
 
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 VALIDATE PASSWORD PLUGIN can be used to test passwords
 and improve security. It checks the strength of password
 and allows the users to set only those passwords which are
@@ -146,16 +146,16 @@ Change the password for root ? ((Press y|Y for Yes, any other key for No) : n
 \section{PHP Preprocessor Installation} \label{sec:php-preprocessor-installation}
 Nginx web server does not contain native PHP preprocessor. A package called \texttt{php-fhm}, which stand for "fastCGI process manager" must be installed on the Ubuntu server. This package tells Nginx to pass the PHP request to \texttt{php-fhm} for processing. Second package that has to be installed is \texttt{php-mysql}, which allows PHP to communicate with the database server.
 
-\subsection{Installing php-fpm and php-mysql}
+\subsection*{Installing php-fpm and php-mysql}
 The following command has been entered to install \texttt{php-fpm} and \texttt{php-mysql}.
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $  sudo apt-get install php-fpm php-mysql
 \end{lstlisting}
 
-\subsection{Securing PHP configuration}
+\subsection*{Securing PHP configuration}
 Initial installation of PHP has to be secured by commenting out the \texttt{cgi\_fix\_pathinfo} line and setting its value to \texttt{0} in the PHP configuration file, \texttt{php.ini}.
 
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $  sudo nano /etc/php/7,0/fpm/php.ini
 
 /etc/php/7.0/fpm/php.ini
@@ -166,20 +166,20 @@ cgi\_fix\_pathinfo=0
 
 Save and close the nano editor. Next, the PHP preprocessor has to be restarted so that the changes will take effect by entering the following command.
 
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $  sudo systemctl restart php7.0-fpm
 \end{lstlisting}
 
-\subsection{Configuring Nginx to use PHP Preprocessor}
+\subsection*{Configuring Nginx to use PHP Preprocessor}
 In this section, a few settings changes on the Nginx will be shown in order to ask Nginx to use PHP preprocessor. The server settings of Nginx can be opened using the following command.
 
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $  sudo nano /etc/nginx/sites-available/default
 \end{lstlisting}
 
 After opening the server settings, \texttt{index.php} has to be added to index line in the server block. In addition to that, two new block \texttt{location \~\textbackslash php\$} and \texttt{location \~/\textbackslash .ht \{} has to be introduced.
 
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 server {
     ...
     index index.php
@@ -197,20 +197,20 @@ server {
 
 After adding those lines to the Nginx configuration files, the configuration file has to be checked for error. If no error is reported, the web server can be restarted safely as shown below.
 
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $  sudo nginx -t
 $  sudo systemctl reload nginx
 \end{lstlisting}
 
-\subsection{Testing PHP Preprocessor}
+\subsection*{Testing PHP Preprocessor}
 The installation and configuration of PHP preprocessor can be tested by introducing \texttt{info.php} to the server root directory. A PHP information file can be created by using the following command.
 
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $  sudo nano /var/www/html/info.php
 \end{lstlisting}
 
 In the PHP file, following lines have to be added. After adding those lines, save and close the file.
-\begin{lstlisting}
+\begin{lstlisting}[language=PHP]
 <?php
     phpinfo();
 \end{lstlisting}
@@ -234,26 +234,26 @@ First, we need to prepare a database table and user in the installed MySQL. The 
 
 Start MySQL database by issuing the following command:
 
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $ mysql -u root -p
 \end{lstlisting}
 
 Enter the password \texttt{d\_XKdEoCwX,4EnO} for the user \texttt{root} when prompted.
 
 Create a new database table \texttt{wordpress} by issuing following command. And don't forget the semicolon at the end of the line.
-\begin{lstlisting}
+\begin{lstlisting}[language=SQL]
 mysql > CREATE DATABASE wordpress DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 \end{lstlisting}
 
 Next, create a new user to operate the above created \texttt{wordpress} database. The following command will create a new user \texttt{wordpressuser} with password \texttt{ABcd1234\#}.
 
-\begin{lstlisting}
+\begin{lstlisting}[language=SQL]
 myql > GRANT ALL ON wordpress.* TO 'wordpressuser'@'localhost' IDENTIFIED BY 'ABcd1234#';
 \end{lstlisting}
 
 This will create the new user with given password, as well as granting the user the all accesses to the database \texttt{wordpress}. Finally, flush the privileges so that the MySQL aware of the changes we have made and exit MySQL.
 
-\begin{lstlisting}
+\begin{lstlisting}[language=SQL]
 mysql > FLUSH PRIVILEGES;
 mysql > EXIT;
 \end{lstlisting}
@@ -267,13 +267,13 @@ There are two modifications that have to be made to the Nginx web server to hand
 \end{enumerate}
 
 Open the Nginx configuration file using \texttt{sudo} privileges:
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $ sudo nano /etc/nginx/sites-available/default
 \end{lstlisting}
 
 We can request server not to log requests to the static files by issuing command {\tt log\_not\_found off}. It is a best practice not to log requests to static files.
 
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 server {
 	...
 	location = /favicon.ico {
@@ -295,7 +295,7 @@ server {
 
 For the second task, passing \texttt{index.php} as \texttt{try\_files} is done so that the server will return home page instead of 404 error as a default option. To do this, following line has to put inside \texttt{location /} block.
 
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 server {
 	...
 	location / {
@@ -308,7 +308,7 @@ server {
 
 When these changes have been made, save the configuration file and exit \texttt{nano} editor by pressing \texttt{Ctrl-x}. Check for the syntax errors of the new configurations. If no error is been reported, restart the Nginx.
 
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $ sudo nginx -t
 $ sudo systemctl reload nginx
 \end{lstlisting}
@@ -316,20 +316,20 @@ $ sudo systemctl reload nginx
 \subsubsection*{Step 3: Installing additional PHP extensions}
 PHP preprocessor has been installed and setup with minimal setting in the previous section. Here, additional modules or extensions will be installed, which is required by WordPress \cite{SugarHill.2016}. Use to following command to install the required additional extensions:
 
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $ sudo apt-get update
 $ sudo apt-get install php-curl php-gd php-mbstring php-mcrypt php-xml php-xmlrpc
 \end{lstlisting}
 
 After finish installing the extensions, restart the \texttt{php-fpm} process.
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $ sudo systemctl restart php7.0-fpm
 \end{lstlisting}
 
 \subsubsection*{Step 4: Generating secret keys}
 Secret keys have to be generated to provide security for the WordPress. The secret keys are provided by WordPress through their secure key generator. To get secret keys from WordPress key generator, issue the following command on the terminal:
 
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $ curl -s https://api.wordpress.org/secret-key/1.1/salt
 \end{lstlisting}
 
@@ -339,7 +339,7 @@ Or another workaround is to use the web browser. Enter the URL \texttt{https://a
 \subsubsection*{Step 5: Downloading WordPress}
 Download the latest version of stable WordPress from https://wordpress.org website. After downloading, extract the downloaded content.
 
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $ cd /tmp
 $ curl -o https://wordpress.org/latest.tar.gz
 $ tar xzvf latest.tar.gz
@@ -348,24 +348,24 @@ $ tar xzvf latest.tar.gz
 By default, WordPress has provided a sample copy of the WordPress configuration file. This file can be found under directory and file name \texttt{tmp/wordpress/wp-config-sample.php}.
 
 Copy the provided configuration file to used in our website. And Create a new directory \texttt{upgrade}, so that WordPress can upgrade its software in the future without any permission issue.
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $ cp /tmp/wordpress/wp-config-sample.php /tmp/wordpress/wp-config.php
 $ mkdir /tmp/wordpress/wp-content/upgrade
 \end{lstlisting}
 
 Finally, copy the contents into root server directory. This are the contents used by the Nginx web server to serve when request is made to the website.
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $ sudo cp -a /tmp/wordpress/. /var/www/html
 \end{lstlisting}
 
 \subsubsection*{Step 6: Configuring WordPress}
 Open the WordPress configuration file:
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 $ nano /var/www/html/wp-config.php
 \end{lstlisting}
 
 In the file, find the 'secret key' section, which appears as follow and paste the generated secret keys from Step 4.
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 ...
 define('AUTH_KEY', 'put your unique phrase here');
 define('SECURE_AUTH_KEY', 'put your unique phrase here');
@@ -380,7 +380,7 @@ define('NONCE_SALT', 'put your unique phrase here');
 
 
 After pasting the generated secret keys, the MySQL database credentials have to be given. These credentials have been created in the Step 1.
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 ...
 define('DB_NAME', 'wordpress');
 
@@ -392,7 +392,7 @@ define('DB_PASSWORD', 'ABcd1234#');
 \end{lstlisting}
 
 Lastly, we need to give permission to Nginx web server to write where it needs to. Otherwise, WordPress will be asking FTP credentials when any actions need to be performed. This can be done through following setting:
-\begin{lstlisting}
+\begin{lstlisting}[language=sh]
 define('FS_METHOD', 'direct');
 \end{lstlisting}
 
